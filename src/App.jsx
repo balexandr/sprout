@@ -9,6 +9,7 @@ import StatsScreen from './components/StatsScreen';
 import styles from './App.module.css';
 import { GameLogo } from './components/GameLogo';
 import { NoodleLogoIcon } from './components/NoodleLogo';
+import { recordTodayShare, getCompletedTodayCount, buildShareAllText } from './utils/shareAll';
 
 const HOW_TO_PLAY_KEY = 'sprout-how-to-play-seen';
 
@@ -36,6 +37,8 @@ export default function App() {
   const [winDismissed, setWinDismissed] = useState(false);
   const [activeWordId, setActiveWordId] = useState(null);
   const [activeCell, setActiveCell] = useState(null);
+  const [shareAllCount, setShareAllCount] = useState(0);
+  const [shareAllCopied, setShareAllCopied] = useState(false);
   const currentYear = new Date().getFullYear();
 
   useEffect(() => {
@@ -50,8 +53,35 @@ export default function App() {
   };
 
   useEffect(() => {
-    if (gameStatus === 'won') recordGame(dateKey, elapsedSeconds);
+    if (gameStatus === 'won') {
+      recordGame(dateKey, elapsedSeconds);
+      recordTodayShare('sprout', dateKey, generateShareText());
+    }
   }, [gameStatus]);
+
+  useEffect(() => {
+    setShareAllCount(getCompletedTodayCount(dateKey));
+  }, [gameStatus, dateKey]);
+
+  const handleShareAll = async () => {
+    const text = buildShareAllText(dateKey);
+    if (!text) return;
+    if (navigator.share) {
+      try { await navigator.share({ text }); return; } catch {}
+    }
+    try { await navigator.clipboard.writeText(text); }
+    catch {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.cssText = 'position:fixed;opacity:0';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+    }
+    setShareAllCopied(true);
+    setTimeout(() => setShareAllCopied(false), 2500);
+  };
 
   // Default the active word to the seed the first time a puzzle loads.
   useEffect(() => {
@@ -79,6 +109,14 @@ export default function App() {
       <a href="https://noodlegames.co" target="_blank" rel="noopener noreferrer" className={styles.footerLogo}>
         <NoodleLogoIcon size={18} /> NoodleGames
       </a>
+      {shareAllCount > 0 && (
+        <button
+          className={`${styles.footerShareAll} ${shareAllCopied ? styles.copied : ''}`}
+          onClick={handleShareAll}
+        >
+          {shareAllCopied ? '✓ Copied' : `⬆ Share all completed (${shareAllCount}/8)`}
+        </button>
+      )}
       <span className={styles.footerCopy}>© {currentYear} NoodleGames.co</span>
     </footer>
   );

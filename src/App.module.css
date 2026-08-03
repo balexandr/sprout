@@ -208,6 +208,26 @@
 
 .footerLogo:hover { opacity: 0.8; }
 
+.footerShareAll {
+  margin-top: 2px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: transparent;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.footerShareAll:hover { opacity: 0.8; }
+
+.footerShareAll.copied {
+  color: #ff6b4a;
+  border-color: #ff6b4a;
+}
+
 .footerCopy {
   font-size: 0.72rem;
   color: var(--text-dim);

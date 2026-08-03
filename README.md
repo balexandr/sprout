@@ -19,7 +19,7 @@ Click a cell and type your guess. Arrow keys and Tab move between cells; click a
 
 ## Sharing
 
-After a solve you can share your time and word count — no spoilers, just a result line.
+After a solve you can share your time and word count — no spoilers, just a result line. Once you've finished at least one NoodleGame today, a **Share all completed** button appears in the footer, letting you share every game you've solved today in one message.
 
 ---
 
