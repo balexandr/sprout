@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 14px;
+  max-height: 220px;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.groupTitle {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+  padding: 0 2px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  border: 1px solid transparent;
+  text-align: left;
+  transition: background 0.15s, border-color 0.15s;
+  animation: fadeIn 0.3s ease both;
+}
+
+.item:hover {
+  background: var(--surface-hover);
+}
+
+.active {
+  background: var(--accent-subtle);
+  border-color: var(--border-hover);
+}
+
+.itemLength {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--text-dim);
+  font-size: 0.65rem;
+  font-weight: 700;
+}
+
+.active .itemLength {
+  background: var(--accent);
+  color: #fff;
+}
+
+.itemClue {
+  flex: 1;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.35;
+}
+
+.active .itemClue {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.solved .itemClue {
+  color: var(--text-dim);
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in srgb, var(--correct) 50%, transparent);
+}
+
+.itemCheck {
+  flex-shrink: 0;
+  color: var(--correct);
+  font-size: 0.8rem;
+  font-weight: 700;
+}

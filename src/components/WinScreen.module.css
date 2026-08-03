@@ -1,0 +1,261 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.78);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.visible { opacity: 1; }
+
+.modal {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 24px 20px 18px;
+  max-width: 380px;
+  width: 100%;
+  text-align: center;
+  animation: slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 0.1s;
+  max-height: 90dvh;
+  overflow-y: auto;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Sparks — one per word in the puzzle, drifting behind the card */
+.sparkContainer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+}
+
+.spark {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  animation: starFloat linear infinite, starPulse ease-in-out infinite;
+}
+
+@keyframes starFloat {
+  0%   { transform: translateY(0) translateX(0); }
+  25%  { transform: translateY(-15px) translateX(8px); }
+  50%  { transform: translateY(-5px) translateX(-6px); }
+  75%  { transform: translateY(-20px) translateX(4px); }
+  100% { transform: translateY(0) translateX(0); }
+}
+
+@keyframes starPulse {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50%       { opacity: 1; transform: scale(1.6); }
+}
+
+/* Header */
+.resultHeader {
+  margin-bottom: 14px;
+  position: relative;
+}
+
+.dismissBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  transition: background 0.15s, color 0.15s;
+}
+
+.dismissBtn:hover {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+
+.ratingEmoji {
+  font-size: 2.2rem;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+  color: var(--text);
+}
+
+.subtitle {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+/* Metrics */
+.metricsRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: 14px;
+  padding: 12px 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.metric {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.metricDivider {
+  width: 1px;
+  height: 28px;
+  background: var(--border);
+}
+
+.metricValue {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.metricLabel {
+  font-size: 0.58rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-dim);
+}
+
+/* Stats row */
+.statsRow {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 14px;
+  padding: 10px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  min-width: 48px;
+}
+
+.statValue {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+}
+
+/* Share preview */
+.sharePreview {
+  margin-bottom: 14px;
+}
+
+.sharePreviewLabel {
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+
+.sharePreviewBox {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.sharePreviewLine {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+/* Share button */
+.shareButton {
+  width: 100%;
+  padding: 12px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  transition: background 0.15s, transform 0.1s;
+  box-shadow: 0 2px 8px rgba(34, 197, 94, 0.25);
+  margin-bottom: 12px;
+}
+
+.shareButton:hover { background: var(--accent-hover); }
+.shareButton:active { transform: scale(0.98); }
+
+.copied {
+  background: var(--correct) !important;
+  box-shadow: 0 2px 8px rgba(74, 222, 128, 0.25);
+}
+
+/* Countdown */
+.countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.countdownLabel {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+.countdownTime {
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-secondary);
+  letter-spacing: 0.05em;
+}
