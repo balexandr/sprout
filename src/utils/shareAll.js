@@ -43,7 +43,7 @@ export function getCompletedTodayCount(dateKey) {
 export function buildShareAllText(dateKey) {
   const entries = GAMES.map(({ id }) => readTodayEntry(id, dateKey)).filter(Boolean);
   if (entries.length === 0) return '';
-  const header = `noodlegames.co: ${entries.length}/${GAMES.length} solved today`;
+  const header = `Noodle Games: ${entries.length}/${GAMES.length} solved today 🍜`;
   return [header, ...entries].join('\n\n');
 }
 
