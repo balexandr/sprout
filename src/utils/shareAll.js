@@ -2,13 +2,13 @@
 // All NoodleGames sites are served from the same origin (balexandr.github.io),
 // so localStorage written by one game is readable by every other game -
 // this file (copied byte-for-byte into every game repo) is the shared contract.
+// Kept in sync with the hub roster in noodle_games/src/data/games.js.
 const GAMES = [
   { id: 'pathways', label: 'Pathways' },
   { id: 'sprout', label: 'Sprout' },
   { id: 'chainlink', label: 'Chain Link' },
   { id: 'sequence', label: 'Sequence' },
   { id: 'knot', label: 'Knot' },
-  { id: 'squint', label: 'Squint' },
   { id: 'zeroin', label: 'Zero In' },
   { id: 'oddoneout', label: 'Odd One Out' },
 ];
@@ -43,7 +43,7 @@ export function getCompletedTodayCount(dateKey) {
 export function buildShareAllText(dateKey) {
   const entries = GAMES.map(({ id }) => readTodayEntry(id, dateKey)).filter(Boolean);
   if (entries.length === 0) return '';
-  const header = `NoodleGames: ${entries.length}/${GAMES.length} solved today 🍜`;
+  const header = `noodlegames.co: ${entries.length}/${GAMES.length} solved today`;
   return [header, ...entries].join('\n\n');
 }
 
