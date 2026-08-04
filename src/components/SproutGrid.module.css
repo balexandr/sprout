@@ -76,11 +76,14 @@
 }
 
 /* Invisible input that stays focused to capture keystrokes/mobile keyboard,
-   positioned off-screen rather than display:none so it can hold focus. */
+   positioned off-screen rather than display:none so it can hold focus.
+   Anchored inside .boardFrame (not viewport-fixed) so that if a browser
+   scrolls it into view despite preventScroll, it lands on the grid instead
+   of yanking the page to an empty spot above the fold. */
 .hiddenInput {
-  position: fixed;
-  top: -100px;
-  left: -100px;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 1px;
   height: 1px;
   opacity: 0;

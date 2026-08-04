@@ -63,7 +63,7 @@ export default function SproutGrid({
   // Keep the hidden input focused whenever there's an active cell, so
   // mobile keyboards stay up and keystrokes keep landing.
   useEffect(() => {
-    if (activeCell && !won) inputRef.current?.focus();
+    if (activeCell && !won) inputRef.current?.focus({ preventScroll: true });
   }, [activeCell, won]);
 
   const moveTo = useCallback((r, c, preferWordId) => {
@@ -116,6 +116,12 @@ export default function SproutGrid({
   }, [won, activeWord, activeCell, activeWordId, onTypeLetter, indexInActiveWord, moveTo]);
 
   const handleKeyDown = useCallback((e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      e.target.blur();
+      return;
+    }
+
     if (won || !activeWord || !activeCell) return;
 
     if (e.key === 'Backspace') {
@@ -212,6 +218,7 @@ export default function SproutGrid({
         className={styles.hiddenInput}
         type="text"
         inputMode="text"
+        enterKeyHint="done"
         autoCapitalize="characters"
         autoComplete="off"
         autoCorrect="off"
