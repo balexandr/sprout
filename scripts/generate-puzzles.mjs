@@ -21,6 +21,12 @@ const NUM_DAYS = 180;
 
 const MAX_SPAN = 10; // hard cap on bounding box width/height
 
+// Minimum days before a word can be reused across the whole run — without
+// this, short common-letter words (ANTS, EGGS, TOFU...) get picked far more
+// often than others since they match nearly every crossing opportunity,
+// and can land on back-to-back or even the same-week days.
+const COOLDOWN_DAYS = 28;
+
 // Difficulty climbs Monday -> Sunday, resets Monday, same weekly cadence
 // established on the `pathways` sibling game.
 const WEEKLY_DIFFICULTY = [
@@ -153,7 +159,7 @@ function commit(placed, occupied, cells, word) {
 }
 
 // ── Puzzle generation for one date ─────────────────────────────────────
-function generatePuzzle(dateKey, dict) {
+function generatePuzzle(dateKey, dict, dayIndex, lastUsedDay) {
   const { wordCount, minLen, maxLen } = difficultyForDate(dateKey);
   const rng = mulberry32(hashSeed(dateKey));
 
@@ -162,6 +168,11 @@ function generatePuzzle(dateKey, dict) {
 
   const maxAttempts = 60;
   const stepBudget = 4000;
+
+  const isOnCooldown = (word) => {
+    const last = lastUsedDay.get(word);
+    return last !== undefined && dayIndex - last < COOLDOWN_DAYS;
+  };
 
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
     const placed = [];
@@ -176,7 +187,8 @@ function generatePuzzle(dateKey, dict) {
     const seedLen = pick(seedLenPool.length ? seedLenPool : lengthsInRange, rng);
     const seedCandidates = dict.byLength.get(seedLen) || [];
     if (!seedCandidates.length) continue;
-    const seedEntry = pick(seedCandidates, rng);
+    const availableSeedCandidates = seedCandidates.filter((e) => !isOnCooldown(e.word));
+    const seedEntry = pick(availableSeedCandidates.length ? availableSeedCandidates : seedCandidates, rng);
 
     const seed = {
       id: 'w0', answer: seedEntry.word, clue: seedEntry.clue,
@@ -205,7 +217,7 @@ function generatePuzzle(dateKey, dict) {
 
       const candidates = shuffle(
         (dict.letterIndex.get(letter) || []).filter(
-          (e) => !usedWords.has(e.word) && e.word.length >= minLen && e.word.length <= maxLen
+          (e) => !usedWords.has(e.word) && !isOnCooldown(e.word) && e.word.length >= minLen && e.word.length <= maxLen
         ),
         rng
       );
@@ -270,13 +282,16 @@ function formatDateKey(date) {
 function main() {
   const dict = loadDictionary();
   const puzzles = {};
+  const lastUsedDay = new Map(); // word -> day index it was last used, for the cooldown check
   const start = new Date(`${EPOCH}T00:00:00Z`);
 
   for (let i = 0; i < NUM_DAYS; i++) {
     const d = new Date(start);
     d.setUTCDate(d.getUTCDate() + i);
     const dateKey = formatDateKey(d);
-    puzzles[dateKey] = generatePuzzle(dateKey, dict);
+    const puzzle = generatePuzzle(dateKey, dict, i, lastUsedDay);
+    puzzles[dateKey] = puzzle;
+    for (const w of puzzle.words) lastUsedDay.set(w.answer, i);
   }
 
   const outPath = join(__dirname, '..', 'src', 'data', 'puzzles.json');
