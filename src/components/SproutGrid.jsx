@@ -107,13 +107,23 @@ export default function SproutGrid({
 
     const idx = indexInActiveWord();
     if (idx >= 0 && idx < activeWord.length - 1) {
+      // Skip forward past cells already filled in by a crossing word that's
+      // been solved, so typing doesn't stall on letters you didn't type.
+      let nextIdx = idx + 1;
+      while (nextIdx < activeWord.length - 1) {
+        const [nr, nc] = activeWord.direction === 'across'
+          ? [activeWord.row, activeWord.col + nextIdx]
+          : [activeWord.row + nextIdx, activeWord.col];
+        if (!entries[cellKey(nr, nc)]) break;
+        nextIdx++;
+      }
       const [nr, nc] = activeWord.direction === 'across'
-        ? [activeWord.row, activeWord.col + idx + 1]
-        : [activeWord.row + idx + 1, activeWord.col];
+        ? [activeWord.row, activeWord.col + nextIdx]
+        : [activeWord.row + nextIdx, activeWord.col];
       moveTo(nr, nc, activeWordId);
     }
     // At the word's last cell: stay put (simpler, more predictable).
-  }, [won, activeWord, activeCell, activeWordId, onTypeLetter, indexInActiveWord, moveTo]);
+  }, [won, activeWord, activeCell, activeWordId, onTypeLetter, indexInActiveWord, moveTo, entries]);
 
   const handleKeyDown = useCallback((e) => {
     if (e.key === 'Enter') {

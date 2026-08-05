@@ -183,6 +183,14 @@ export default function App() {
           </div>
         </div>
 
+        <ClueList
+          puzzle={puzzle}
+          visibleIds={visibleIds}
+          solvedIds={solvedIds}
+          activeWordId={activeWordId}
+          onSelectWord={handleSelectClue}
+        />
+
         <SproutGrid
           puzzle={puzzle}
           entries={entries}
@@ -195,14 +203,6 @@ export default function App() {
           gameStatus={gameStatus}
           onTypeLetter={(r, c, letter) => setCellLetter(r, c, letter)}
           onClearCell={(r, c) => setCellLetter(r, c, null)}
-        />
-
-        <ClueList
-          puzzle={puzzle}
-          visibleIds={visibleIds}
-          solvedIds={solvedIds}
-          activeWordId={activeWordId}
-          onSelectWord={handleSelectClue}
         />
 
         {gameStatus === 'playing' && (
