@@ -53,6 +53,28 @@ export default function SproutGrid({
     return owners.filter((id) => visibleIds.has(id));
   }, [cellOwners, visibleIds]);
 
+  // A cell is "locked" only when a *different*, already-solved crossing word
+  // owns it — that letter is guaranteed correct, so typing can skip past it.
+  // A cell you filled in yourself as part of the active word (right or
+  // wrong) must never be skipped, or fixing a mid-word typo becomes
+  // impossible to land on.
+  const isLockedByCrossing = useCallback((r, c, forWordId) => {
+    return visibleOwners(r, c).some((id) => id !== forWordId && solvedIds.has(id));
+  }, [visibleOwners, solvedIds]);
+
+  const wordOrder = useMemo(() => (
+    puzzle.words
+      .filter((w) => visibleIds.has(w.id))
+      .sort((a, b) => a.row - b.row || a.col - b.col || a.id.localeCompare(b.id))
+  ), [puzzle.words, visibleIds]);
+
+  const goToWordOffset = useCallback((fromId, step) => {
+    const curIdx = wordOrder.findIndex((w) => w.id === fromId);
+    if (curIdx === -1) return;
+    const next = wordOrder[(curIdx + step + wordOrder.length) % wordOrder.length];
+    if (next) onSetActive(next.id, { r: next.row, c: next.col });
+  }, [wordOrder, onSetActive]);
+
   const activeWord = activeWordId ? wordsById[activeWordId] : null;
 
   const activeCellSet = useMemo(() => {
@@ -106,24 +128,31 @@ export default function SproutGrid({
     onTypeLetter(activeCell.r, activeCell.c, letter);
 
     const idx = indexInActiveWord();
-    if (idx >= 0 && idx < activeWord.length - 1) {
-      // Skip forward past cells already filled in by a crossing word that's
-      // been solved, so typing doesn't stall on letters you didn't type.
+    if (idx < 0) return;
+
+    if (idx < activeWord.length - 1) {
+      // Skip forward past cells locked in by an already-solved crossing
+      // word, but never past a letter you typed yourself in this word —
+      // those must stay reachable one cell at a time so a mid-word typo
+      // can actually be corrected instead of skipped over.
       let nextIdx = idx + 1;
       while (nextIdx < activeWord.length - 1) {
         const [nr, nc] = activeWord.direction === 'across'
           ? [activeWord.row, activeWord.col + nextIdx]
           : [activeWord.row + nextIdx, activeWord.col];
-        if (!entries[cellKey(nr, nc)]) break;
+        if (!isLockedByCrossing(nr, nc, activeWordId)) break;
         nextIdx++;
       }
       const [nr, nc] = activeWord.direction === 'across'
         ? [activeWord.row, activeWord.col + nextIdx]
         : [activeWord.row + nextIdx, activeWord.col];
       moveTo(nr, nc, activeWordId);
+    } else {
+      // Just filled the word's last cell — jump to the next word so mobile
+      // users aren't hunting for the next tappable cell under the keyboard.
+      goToWordOffset(activeWordId, 1);
     }
-    // At the word's last cell: stay put (simpler, more predictable).
-  }, [won, activeWord, activeCell, activeWordId, onTypeLetter, indexInActiveWord, moveTo, entries]);
+  }, [won, activeWord, activeCell, activeWordId, onTypeLetter, indexInActiveWord, moveTo, isLockedByCrossing, goToWordOffset]);
 
   const handleKeyDown = useCallback((e) => {
     if (e.key === 'Enter') {
@@ -164,15 +193,9 @@ export default function SproutGrid({
 
     if (e.key === 'Tab') {
       e.preventDefault();
-      const order = puzzle.words
-        .filter((w) => visibleIds.has(w.id))
-        .sort((a, b) => a.row - b.row || a.col - b.col || a.id.localeCompare(b.id));
-      const curIdx = order.findIndex((w) => w.id === activeWordId);
-      const step = e.shiftKey ? -1 : 1;
-      const next = order[(curIdx + step + order.length) % order.length];
-      if (next) onSetActive(next.id, { r: next.row, c: next.col });
+      goToWordOffset(activeWordId, e.shiftKey ? -1 : 1);
     }
-  }, [won, activeWord, activeCell, activeWordId, entries, indexInActiveWord, moveTo, onClearCell, puzzle.words, visibleIds, onSetActive]);
+  }, [won, activeWord, activeCell, activeWordId, entries, indexInActiveWord, moveTo, onClearCell, goToWordOffset]);
 
   const rows = [];
   for (let r = 0; r < puzzle.height; r++) {
