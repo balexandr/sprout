@@ -11,6 +11,7 @@ const GAMES = [
   { id: 'knot', label: 'Knot' },
   { id: 'zeroin', label: 'Zero In' },
   { id: 'oddoneout', label: 'Odd One Out' },
+  { id: 'mirror', label: 'Mirror' },
 ];
 
 const KEY_PREFIX = 'noodle-share-';
