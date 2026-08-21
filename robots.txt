@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://balexandr.github.io/sprout/sitemap.xml
+Sitemap: https://sprout.noodlegames.co/sitemap.xml
