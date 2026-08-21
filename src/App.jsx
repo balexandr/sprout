@@ -203,13 +203,9 @@ export default function App() {
           gameStatus={gameStatus}
           onTypeLetter={(r, c, letter) => setCellLetter(r, c, letter)}
           onClearCell={(r, c) => setCellLetter(r, c, null)}
+          interactionDisabled={showHowToPlay || showStats}
+          showHint={gameStatus === 'playing'}
         />
-
-        {gameStatus === 'playing' && (
-          <p className={styles.hint}>
-            Solve a word to sprout its hidden neighbors into view
-          </p>
-        )}
       </main>
 
       {gameStatus === 'won' && !winDismissed && (

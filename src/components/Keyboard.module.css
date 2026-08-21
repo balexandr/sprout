@@ -1,0 +1,56 @@
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 14px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.key {
+  flex: 1;
+  max-width: 34px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  transition: background 0.12s, border-color 0.12s, transform 0.08s;
+}
+
+.key:active:not(:disabled) {
+  transform: scale(0.92);
+  background: var(--surface-hover);
+}
+
+.key:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.backspace {
+  flex: 1.6;
+  max-width: 54px;
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+}
+
+@media (hover: hover) {
+  .key:hover:not(:disabled) {
+    background: var(--surface-hover);
+    border-color: var(--border-hover);
+  }
+}

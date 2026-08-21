@@ -1,4 +1,5 @@
-import { useRef, useEffect, useMemo, useCallback } from 'react';
+import { useEffect, useMemo, useCallback } from 'react';
+import Keyboard from './Keyboard';
 import styles from './SproutGrid.module.css';
 
 function cellKey(r, c) { return `${r},${c}`; }
@@ -24,9 +25,11 @@ export default function SproutGrid({
   gameStatus,
   onTypeLetter,
   onClearCell,
+  interactionDisabled,
+  showHint,
 }) {
-  const inputRef = useRef(null);
   const won = gameStatus === 'won';
+  const locked = won || interactionDisabled;
 
   const wordsById = useMemo(() => {
     const map = {};
@@ -82,12 +85,6 @@ export default function SproutGrid({
     return new Set(cellsFor(activeWord).map(([r, c]) => cellKey(r, c)));
   }, [activeWord]);
 
-  // Keep the hidden input focused whenever there's an active cell, so
-  // mobile keyboards stay up and keystrokes keep landing.
-  useEffect(() => {
-    if (activeCell && !won) inputRef.current?.focus({ preventScroll: true });
-  }, [activeCell, won]);
-
   const moveTo = useCallback((r, c, preferWordId) => {
     const owners = visibleOwners(r, c);
     if (owners.length === 0) return false;
@@ -118,11 +115,13 @@ export default function SproutGrid({
       : activeCell.r - activeWord.row;
   }, [activeWord, activeCell]);
 
-  const handleChange = useCallback((e) => {
-    const raw = e.target.value;
-    e.target.value = '';
-    if (won || !activeWord || !activeCell) return;
-    const letter = raw.slice(-1).toUpperCase();
+  // Types one letter into the active cell and advances - shared by the
+  // on-screen keyboard (tap) and the window-level keydown listener below
+  // (physical keyboard), so both input paths get identical skip/advance
+  // behavior instead of drifting apart.
+  const typeLetter = useCallback((raw) => {
+    if (locked || !activeWord || !activeCell) return;
+    const letter = String(raw).slice(-1).toUpperCase();
     if (!/[A-Z]/.test(letter)) return;
 
     onTypeLetter(activeCell.r, activeCell.c, letter);
@@ -152,50 +151,63 @@ export default function SproutGrid({
       // users aren't hunting for the next tappable cell under the keyboard.
       goToWordOffset(activeWordId, 1);
     }
-  }, [won, activeWord, activeCell, activeWordId, onTypeLetter, indexInActiveWord, moveTo, isLockedByCrossing, goToWordOffset]);
+  }, [locked, activeWord, activeCell, activeWordId, onTypeLetter, indexInActiveWord, moveTo, isLockedByCrossing, goToWordOffset]);
 
-  const handleKeyDown = useCallback((e) => {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      e.target.blur();
+  const doBackspace = useCallback(() => {
+    if (locked || !activeWord || !activeCell) return;
+    const key = cellKey(activeCell.r, activeCell.c);
+    if (entries[key]) {
+      onClearCell(activeCell.r, activeCell.c);
       return;
     }
+    const idx = indexInActiveWord();
+    if (idx > 0) {
+      const [pr, pc] = activeWord.direction === 'across'
+        ? [activeWord.row, activeWord.col + idx - 1]
+        : [activeWord.row + idx - 1, activeWord.col];
+      onClearCell(pr, pc);
+      moveTo(pr, pc, activeWordId);
+    }
+  }, [locked, activeWord, activeCell, activeWordId, entries, indexInActiveWord, moveTo, onClearCell]);
 
-    if (won || !activeWord || !activeCell) return;
+  // Physical/bluetooth keyboards still work (arrows, tab, letters, backspace)
+  // via a plain window-level listener — no hidden <input> needed to catch
+  // them, so there's nothing for a mobile browser to pop a native keyboard
+  // for. The on-screen Keyboard below is the only touch input surface now.
+  useEffect(() => {
+    if (locked || !activeWord || !activeCell) return;
 
-    if (e.key === 'Backspace') {
-      e.preventDefault();
-      const key = cellKey(activeCell.r, activeCell.c);
-      if (entries[key]) {
-        onClearCell(activeCell.r, activeCell.c);
+    function onWindowKeyDown(e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      const tag = document.activeElement?.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+
+      if (e.key === 'Backspace') { e.preventDefault(); doBackspace(); return; }
+
+      const arrowDelta = {
+        ArrowUp: [-1, 0], ArrowDown: [1, 0], ArrowLeft: [0, -1], ArrowRight: [0, 1],
+      }[e.key];
+      if (arrowDelta) {
+        e.preventDefault();
+        moveTo(activeCell.r + arrowDelta[0], activeCell.c + arrowDelta[1], activeWordId);
         return;
       }
-      const idx = indexInActiveWord();
-      if (idx > 0) {
-        const [pr, pc] = activeWord.direction === 'across'
-          ? [activeWord.row, activeWord.col + idx - 1]
-          : [activeWord.row + idx - 1, activeWord.col];
-        onClearCell(pr, pc);
-        moveTo(pr, pc, activeWordId);
+
+      if (e.key === 'Tab') {
+        e.preventDefault();
+        goToWordOffset(activeWordId, e.shiftKey ? -1 : 1);
+        return;
       }
-      return;
+
+      if (e.key.length === 1 && /[a-zA-Z]/.test(e.key)) {
+        e.preventDefault();
+        typeLetter(e.key);
+      }
     }
 
-    const arrowDelta = {
-      ArrowUp: [-1, 0], ArrowDown: [1, 0], ArrowLeft: [0, -1], ArrowRight: [0, 1],
-    }[e.key];
-    if (arrowDelta) {
-      e.preventDefault();
-      const [dr, dc] = arrowDelta;
-      moveTo(activeCell.r + dr, activeCell.c + dc, activeWordId);
-      return;
-    }
-
-    if (e.key === 'Tab') {
-      e.preventDefault();
-      goToWordOffset(activeWordId, e.shiftKey ? -1 : 1);
-    }
-  }, [won, activeWord, activeCell, activeWordId, entries, indexInActiveWord, moveTo, onClearCell, goToWordOffset]);
+    window.addEventListener('keydown', onWindowKeyDown);
+    return () => window.removeEventListener('keydown', onWindowKeyDown);
+  }, [locked, activeWord, activeCell, activeWordId, doBackspace, moveTo, goToWordOffset, typeLetter]);
 
   const rows = [];
   for (let r = 0; r < puzzle.height; r++) {
@@ -239,29 +251,21 @@ export default function SproutGrid({
   }
 
   return (
-    <div className={styles.boardFrame}>
-      <div
-        className={styles.gridWrap}
-        style={{ '--cols': puzzle.width, '--rows': puzzle.height }}
-      >
-        {rows}
+    <>
+      <div className={styles.boardFrame}>
+        <div
+          className={styles.gridWrap}
+          style={{ '--cols': puzzle.width, '--rows': puzzle.height }}
+        >
+          {rows}
+        </div>
       </div>
-      <input
-        ref={inputRef}
-        className={styles.hiddenInput}
-        type="text"
-        inputMode="text"
-        enterKeyHint="done"
-        autoCapitalize="characters"
-        autoComplete="off"
-        autoCorrect="off"
-        spellCheck="false"
-        value=""
-        onChange={handleChange}
-        onKeyDown={handleKeyDown}
-        aria-hidden="true"
-        tabIndex={-1}
-      />
-    </div>
+      {showHint && (
+        <p className={styles.hint}>
+          Solve a word to sprout its hidden neighbors into view
+        </p>
+      )}
+      <Keyboard onKey={typeLetter} onBackspace={doBackspace} disabled={locked} />
+    </>
   );
 }

@@ -70,24 +70,17 @@
   color: var(--correct);
 }
 
+/* ── Hint text ──────────────────────────────────────────────────── */
+.hint {
+  margin-top: 12px;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  text-align: center;
+  line-height: 1.5;
+}
+
 /* One-shot sprout-in animation for newly revealed cells */
 .sprouting {
   animation: sproutIn 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
 }
 
-/* Invisible input that stays focused to capture keystrokes/mobile keyboard,
-   positioned off-screen rather than display:none so it can hold focus.
-   Anchored inside .boardFrame (not viewport-fixed) so that if a browser
-   scrolls it into view despite preventScroll, it lands on the grid instead
-   of yanking the page to an empty spot above the fold. */
-.hiddenInput {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-  border: none;
-  outline: none;
-  pointer-events: none;
-}

@@ -151,15 +151,6 @@
   line-height: 1;
 }
 
-/* ── Hint text ────────────────────────────────── */
-.hint {
-  margin-top: 12px;
-  font-size: 0.78rem;
-  color: var(--text-dim);
-  text-align: center;
-  line-height: 1.5;
-}
-
 /* ── No puzzle ────────────────────────────────── */
 .noPuzzle {
   flex: 1;
