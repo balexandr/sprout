@@ -56,13 +56,13 @@ export default function SproutGrid({
     return owners.filter((id) => visibleIds.has(id));
   }, [cellOwners, visibleIds]);
 
-  // A cell is "locked" only when a *different*, already-solved crossing word
-  // owns it — that letter is guaranteed correct, so typing can skip past it.
-  // A cell you filled in yourself as part of the active word (right or
-  // wrong) must never be skipped, or fixing a mid-word typo becomes
-  // impossible to land on.
-  const isLockedByCrossing = useCallback((r, c, forWordId) => {
-    return visibleOwners(r, c).some((id) => id !== forWordId && solvedIds.has(id));
+  // A cell is locked once ANY word that owns it is already solved — that
+  // letter is guaranteed correct, so typing skips past it and backspace
+  // steps over it instead of deleting it. This covers both a solved
+  // crossing word and the active word itself once it's been completed, so
+  // a finished word can't be derailed by a stray backspace or overwrite.
+  const isCellLocked = useCallback((r, c) => {
+    return visibleOwners(r, c).some((id) => solvedIds.has(id));
   }, [visibleOwners, solvedIds]);
 
   const wordOrder = useMemo(() => (
@@ -124,22 +124,23 @@ export default function SproutGrid({
     const letter = String(raw).slice(-1).toUpperCase();
     if (!/[A-Z]/.test(letter)) return;
 
-    onTypeLetter(activeCell.r, activeCell.c, letter);
+    // Never overwrite a letter that's part of an already-solved word — the
+    // cursor still advances as normal below, the write just no-ops.
+    if (!isCellLocked(activeCell.r, activeCell.c)) {
+      onTypeLetter(activeCell.r, activeCell.c, letter);
+    }
 
     const idx = indexInActiveWord();
     if (idx < 0) return;
 
     if (idx < activeWord.length - 1) {
-      // Skip forward past cells locked in by an already-solved crossing
-      // word, but never past a letter you typed yourself in this word —
-      // those must stay reachable one cell at a time so a mid-word typo
-      // can actually be corrected instead of skipped over.
+      // Skip forward past cells locked in by an already-solved word.
       let nextIdx = idx + 1;
       while (nextIdx < activeWord.length - 1) {
         const [nr, nc] = activeWord.direction === 'across'
           ? [activeWord.row, activeWord.col + nextIdx]
           : [activeWord.row + nextIdx, activeWord.col];
-        if (!isLockedByCrossing(nr, nc, activeWordId)) break;
+        if (!isCellLocked(nr, nc)) break;
         nextIdx++;
       }
       const [nr, nc] = activeWord.direction === 'across'
@@ -151,12 +152,14 @@ export default function SproutGrid({
       // users aren't hunting for the next tappable cell under the keyboard.
       goToWordOffset(activeWordId, 1);
     }
-  }, [locked, activeWord, activeCell, activeWordId, onTypeLetter, indexInActiveWord, moveTo, isLockedByCrossing, goToWordOffset]);
+  }, [locked, activeWord, activeCell, activeWordId, onTypeLetter, indexInActiveWord, moveTo, isCellLocked, goToWordOffset]);
 
   const doBackspace = useCallback(() => {
     if (locked || !activeWord || !activeCell) return;
     const key = cellKey(activeCell.r, activeCell.c);
-    if (entries[key]) {
+    // A locked cell (part of an already-solved word) is never deleted —
+    // backspace just steps the cursor back over it instead.
+    if (entries[key] && !isCellLocked(activeCell.r, activeCell.c)) {
       onClearCell(activeCell.r, activeCell.c);
       return;
     }
@@ -165,10 +168,10 @@ export default function SproutGrid({
       const [pr, pc] = activeWord.direction === 'across'
         ? [activeWord.row, activeWord.col + idx - 1]
         : [activeWord.row + idx - 1, activeWord.col];
-      onClearCell(pr, pc);
+      if (!isCellLocked(pr, pc)) onClearCell(pr, pc);
       moveTo(pr, pc, activeWordId);
     }
-  }, [locked, activeWord, activeCell, activeWordId, entries, indexInActiveWord, moveTo, onClearCell]);
+  }, [locked, activeWord, activeCell, activeWordId, entries, indexInActiveWord, moveTo, onClearCell, isCellLocked]);
 
   // Physical/bluetooth keyboards still work (arrows, tab, letters, backspace)
   // via a plain window-level listener — no hidden <input> needed to catch

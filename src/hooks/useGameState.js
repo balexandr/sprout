@@ -160,6 +160,19 @@ export function useGameState() {
     return puzzle.words.every((w) => solvedIds.has(w.id));
   }, [puzzle, solvedIds]);
 
+  // Cells owned by an already-solved word. Locked at the state layer (not
+  // just in the grid's input handling) so a completed word can't be torn
+  // apart from any input path, present or future.
+  const solvedCellKeys = useMemo(() => {
+    const set = new Set();
+    if (!puzzle) return set;
+    for (const w of puzzle.words) {
+      if (!solvedIds.has(w.id)) continue;
+      for (const [r, c] of cellsFor(w)) set.add(cellKey(r, c));
+    }
+    return set;
+  }, [puzzle, solvedIds]);
+
   useEffect(() => {
     if (won && gameStatus === 'playing') {
       setGameStatus('won');
@@ -169,6 +182,7 @@ export function useGameState() {
 
   const setCellLetter = useCallback((r, c, letter) => {
     if (gameStatus !== 'playing') return;
+    if (solvedCellKeys.has(cellKey(r, c))) return; // locked in by a solved word
     setEntriesState((prev) => {
       const key = cellKey(r, c);
       if (letter === null) {
@@ -180,7 +194,7 @@ export function useGameState() {
       if (prev[key] === letter) return prev;
       return { ...prev, [key]: letter };
     });
-  }, [gameStatus]);
+  }, [gameStatus, solvedCellKeys]);
 
   const generateShareText = useCallback(() => {
     if (!puzzle) return '';
