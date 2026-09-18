@@ -67,6 +67,33 @@ body {
   align-items: center;
 }
 
+/* Pollen motes drift slowly upward through the garden light, fitting
+   the seed-that-grows mechanic. */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, rgba(163, 196, 177, 0.55) 1.3px, transparent 1.7px),
+    radial-gradient(circle, rgba(74, 222, 128, 0.5) 1px, transparent 1.4px),
+    radial-gradient(circle, rgba(163, 196, 177, 0.4) 0.9px, transparent 1.3px);
+  background-size: 220px 260px, 170px 220px, 150px 300px;
+  background-position: 20px 260px, 120px 200px, 60px 300px;
+  animation: pollenDrift 26s linear infinite, pollenTwinkle 4s ease-in-out infinite;
+  z-index: 0;
+}
+
+@keyframes pollenDrift {
+  from { background-position: 20px 260px, 120px 200px, 60px 300px; }
+  to   { background-position: 20px 0px, 120px -20px, 60px 0px; }
+}
+
+@keyframes pollenTwinkle {
+  0%, 100% { opacity: 0.5; }
+  50%       { opacity: 1; }
+}
+
 /* Ambient pulse, like sunlight breathing through leaves */
 body::after {
   content: '';
