@@ -95,22 +95,25 @@ body::before {
 }
 
 /* The pollen dots above are too small and sparse to read as motion once
-   the puzzle grid covers almost the whole viewport. This bold glow
-   rising from the bottom (replacing the old fixed-position breathing
-   pulse, which had the same visibility problem) is sized to actually
-   show in the margins that remain, like a burst of growth-light. */
+   the puzzle grid covers almost the whole viewport. This glow rising
+   from the bottom (replacing the old fixed-position breathing pulse,
+   which had the same visibility problem) is sized to show in the
+   margins that remain. First version was 300px at up to 0.9 opacity,
+   bright and wide enough to wash a visible band through the semi-
+   transparent crossword panel as it rose behind it. Shrunk and dimmed
+   so it stays a background presence instead of sweeping the grid. */
 body::after {
   content: '';
   position: fixed;
   inset: 0;
   pointer-events: none;
-  background: radial-gradient(circle 300px at 50% 100%, rgba(34, 197, 94, 0.26) 0%, transparent 70%);
+  background: radial-gradient(circle 90px at 50% 100%, rgba(34, 197, 94, 0.35) 0%, transparent 70%);
   animation: sproutGrow 8s ease-in infinite;
   z-index: 0;
 }
 
 @keyframes sproutGrow {
-  0%   { transform: translateY(0); opacity: 0.9; }
+  0%   { transform: translateY(0); opacity: 0.6; }
   85%  { opacity: 0.2; }
   100% { transform: translateY(-140vh); opacity: 0; }
 }
