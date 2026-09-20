@@ -67,8 +67,11 @@ body {
   align-items: center;
 }
 
-/* Pollen motes drift slowly upward through the garden light, fitting
-   the seed-that-grows mechanic. */
+/* Pollen motes, fixed in place, just twinkling in brightness. Two
+   rounds of scrolling/rising motion here (drifting upward, then a
+   rising glow) both ended up either invisible or distracting once the
+   puzzle grid covers most of the viewport. No directional movement
+   left, just a gentle flicker. */
 body::before {
   content: '';
   position: fixed;
@@ -80,13 +83,8 @@ body::before {
     radial-gradient(circle, rgba(163, 196, 177, 0.4) 0.9px, transparent 1.3px);
   background-size: 220px 260px, 170px 220px, 150px 300px;
   background-position: 20px 260px, 120px 200px, 60px 300px;
-  animation: pollenDrift 26s linear infinite, pollenTwinkle 4s ease-in-out infinite;
+  animation: pollenTwinkle 4s ease-in-out infinite;
   z-index: 0;
-}
-
-@keyframes pollenDrift {
-  from { background-position: 20px 260px, 120px 200px, 60px 300px; }
-  to   { background-position: 20px 0px, 120px -20px, 60px 0px; }
 }
 
 @keyframes pollenTwinkle {
@@ -94,28 +92,20 @@ body::before {
   50%       { opacity: 1; }
 }
 
-/* The pollen dots above are too small and sparse to read as motion once
-   the puzzle grid covers almost the whole viewport. This glow rising
-   from the bottom (replacing the old fixed-position breathing pulse,
-   which had the same visibility problem) is sized to show in the
-   margins that remain. First version was 300px at up to 0.9 opacity,
-   bright and wide enough to wash a visible band through the semi-
-   transparent crossword panel as it rose behind it. Shrunk and dimmed
-   so it stays a background presence instead of sweeping the grid. */
+/* Ambient pulse, like sunlight breathing through leaves. */
 body::after {
   content: '';
   position: fixed;
   inset: 0;
   pointer-events: none;
-  background: radial-gradient(circle 90px at 50% 100%, rgba(34, 197, 94, 0.35) 0%, transparent 70%);
-  animation: sproutGrow 8s ease-in infinite;
+  background: radial-gradient(ellipse at 50% 100%, rgba(34, 197, 94, 0.08) 0%, transparent 50%);
+  animation: gardenPulse 5s ease-in-out infinite;
   z-index: 0;
 }
 
-@keyframes sproutGrow {
-  0%   { transform: translateY(0); opacity: 0.6; }
-  85%  { opacity: 0.2; }
-  100% { transform: translateY(-140vh); opacity: 0; }
+@keyframes gardenPulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.6; }
 }
 
 button {
