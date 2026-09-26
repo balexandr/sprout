@@ -47,16 +47,19 @@ html, body {
 }
 
 /* Night garden: dark soil base, a soft green glow rising from below like
-   growth light, faint dappled highlights scattered like leaf-light. */
+   growth light, irregular soft blotches scattered like sunlight falling
+   through a leaf canopy, not a mechanical grid. */
 body {
   background-color: #0a120d;
   background-image:
     radial-gradient(ellipse at 50% 110%, rgba(34, 197, 94, 0.14) 0%, transparent 55%),
     radial-gradient(ellipse at 15% 0%, rgba(74, 222, 128, 0.06) 0%, transparent 45%),
-    radial-gradient(circle at 22px 16px, rgba(163, 196, 177, 0.06) 1.2px, transparent 1.6px),
-    radial-gradient(circle at 9px 34px, rgba(163, 196, 177, 0.05) 1px, transparent 1.4px),
+    radial-gradient(circle at 12% 22%, rgba(163, 196, 177, 0.07) 0%, transparent 9%),
+    radial-gradient(circle at 78% 14%, rgba(163, 196, 177, 0.06) 0%, transparent 7%),
+    radial-gradient(circle at 60% 68%, rgba(74, 222, 128, 0.05) 0%, transparent 10%),
+    radial-gradient(circle at 30% 85%, rgba(163, 196, 177, 0.05) 0%, transparent 8%),
+    radial-gradient(circle at 92% 55%, rgba(74, 222, 128, 0.04) 0%, transparent 8%),
     linear-gradient(180deg, #0c1712 0%, #070d0a 100%);
-  background-size: auto, auto, 38px 38px, 38px 38px, auto;
   background-attachment: fixed;
 }
 
