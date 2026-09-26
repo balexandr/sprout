@@ -21,12 +21,20 @@ function cellsFor(word) {
   return out;
 }
 
-function loadState(dateKey) {
+// Cheap content fingerprint so a stale save from a puzzle that got edited
+// after someone may have already played it can never silently carry over —
+// same lesson Dial learned (see its useGameState.js).
+function contentFingerprint(puzzle) {
+  return puzzle.words.map((w) => w.answer).join('|');
+}
+
+function loadState(dateKey, fingerprint) {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
     const saved = JSON.parse(raw);
     if (saved.dateKey !== dateKey) return null;
+    if (saved.fingerprint !== fingerprint) return null;
     return saved;
   } catch { return null; }
 }
@@ -39,6 +47,7 @@ export function useGameState() {
   const dateKey = getTodayKey();
   const puzzle = puzzles[dateKey] || null;
   const puzzleNumber = Math.floor((new Date(dateKey) - new Date(EPOCH)) / 86400000) + 1;
+  const fingerprint = puzzle ? contentFingerprint(puzzle) : null;
 
   const [entries, setEntriesState] = useState({});
   const [gameStatus, setGameStatus] = useState('playing');
@@ -67,7 +76,7 @@ export function useGameState() {
   useEffect(() => {
     if (!puzzle) { setInitialized(true); return; }
 
-    const saved = loadState(dateKey);
+    const saved = loadState(dateKey, fingerprint);
     if (saved && saved.entries) {
       setEntriesState(saved.entries);
       setGameStatus(saved.gameStatus || 'playing');
@@ -84,8 +93,8 @@ export function useGameState() {
   // Persist
   useEffect(() => {
     if (!initialized || !puzzle) return;
-    saveState({ dateKey, entries, gameStatus, elapsedSeconds });
-  }, [entries, gameStatus, elapsedSeconds, initialized, dateKey, puzzle]);
+    saveState({ dateKey, fingerprint, entries, gameStatus, elapsedSeconds });
+  }, [entries, gameStatus, elapsedSeconds, initialized, dateKey, fingerprint, puzzle]);
 
   // Adjacency graph: two cross-direction words that share exactly one cell
   // are neighbors at that cell.

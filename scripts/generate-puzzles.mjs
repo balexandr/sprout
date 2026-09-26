@@ -79,10 +79,11 @@ function pick(arr, rng) {
 }
 
 // ── Dictionary ──────────────────────────────────────────────────────────
-function loadDictionary() {
-  const raw = JSON.parse(readFileSync(join(__dirname, 'dictionary.json'), 'utf8'));
-  const entries = raw.map((e) => ({ word: e.word.toUpperCase(), clue: e.clue }));
-
+// Each puzzle now draws its whole word list from a single category (e.g.
+// "Down on the Farm") instead of pulling unrelated words from one global
+// pool — the category name is shown to players at the top of the board, so
+// a day's words need to actually hold together as a theme.
+function buildCategoryIndex(entries) {
   const byLength = new Map();
   const letterIndex = new Map(); // letter -> entries containing it
 
@@ -99,6 +100,23 @@ function loadDictionary() {
   }
 
   return { entries, byLength, letterIndex };
+}
+
+function loadDictionary() {
+  const raw = JSON.parse(readFileSync(join(__dirname, 'dictionary.json'), 'utf8'));
+  const byCategory = new Map(); // category name -> { entries, byLength, letterIndex }
+
+  for (const e of raw) {
+    const entry = { word: e.word.toUpperCase(), clue: e.clue };
+    if (!byCategory.has(e.category)) byCategory.set(e.category, []);
+    byCategory.get(e.category).push(entry);
+  }
+
+  const categories = [...byCategory.keys()];
+  const indexByCategory = new Map();
+  for (const [cat, entries] of byCategory) indexByCategory.set(cat, buildCategoryIndex(entries));
+
+  return { categories, indexByCategory };
 }
 
 // ── Grid helpers ────────────────────────────────────────────────────────
@@ -279,8 +297,17 @@ function formatDateKey(date) {
   return date.toISOString().slice(0, 10);
 }
 
+// A fixed shuffle of the category list (seeded, so it's reproducible run to
+// run) rather than alphabetical order — otherwise the same categories would
+// always land on the same weekday every single week.
+function shuffledCategoryOrder(categories) {
+  const rng = mulberry32(hashSeed('sprout-category-rotation'));
+  return shuffle(categories, rng);
+}
+
 function main() {
   const dict = loadDictionary();
+  const categoryOrder = shuffledCategoryOrder(dict.categories);
   const puzzles = {};
   const lastUsedDay = new Map(); // word -> day index it was last used, for the cooldown check
   const start = new Date(`${EPOCH}T00:00:00Z`);
@@ -289,7 +316,26 @@ function main() {
     const d = new Date(start);
     d.setUTCDate(d.getUTCDate() + i);
     const dateKey = formatDateKey(d);
-    const puzzle = generatePuzzle(dateKey, dict, i, lastUsedDay);
+
+    // One category per day, rotating through the full list. If that
+    // category's word pool can't fill the day's grid (rare, on the
+    // hardest weekend tiers), fall back to the next category in line
+    // rather than ever throwing — still fully deterministic per run.
+    let puzzle = null;
+    let category = null;
+    for (let offset = 0; offset < categoryOrder.length; offset++) {
+      const candidateCategory = categoryOrder[(i + offset) % categoryOrder.length];
+      try {
+        puzzle = generatePuzzle(dateKey, dict.indexByCategory.get(candidateCategory), i, lastUsedDay);
+        category = candidateCategory;
+        break;
+      } catch {
+        // try the next category
+      }
+    }
+    if (!puzzle) throw new Error(`Failed to generate a puzzle for ${dateKey} in any category`);
+
+    puzzle.category = category;
     puzzles[dateKey] = puzzle;
     for (const w of puzzle.words) lastUsedDay.set(w.answer, i);
   }

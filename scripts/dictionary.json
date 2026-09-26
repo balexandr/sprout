@@ -1,2802 +1,3302 @@
 [
   {
-    "word": "CAT",
-    "clue": "Common house pet that meows"
-  },
-  {
-    "word": "SUN",
-    "clue": "Star at the center of our solar system"
-  },
-  {
-    "word": "RUN",
-    "clue": "Move quickly on foot"
-  },
-  {
-    "word": "BIG",
-    "clue": "Large in size"
-  },
-  {
-    "word": "RED",
-    "clue": "Color of ripe strawberries"
-  },
-  {
-    "word": "MAP",
-    "clue": "Diagram used to navigate a place"
-  },
-  {
-    "word": "TOP",
-    "clue": "Highest point of something"
-  },
-  {
-    "word": "JAM",
-    "clue": "Fruit spread eaten on toast"
-  },
-  {
-    "word": "DOG",
-    "clue": "Loyal pet that barks"
-  },
-  {
-    "word": "CAR",
-    "clue": "Vehicle with four wheels for driving"
-  },
-  {
-    "word": "HAT",
-    "clue": "Item worn on the head"
-  },
-  {
-    "word": "BAT",
-    "clue": "Flying nocturnal mammal"
-  },
-  {
-    "word": "RAT",
-    "clue": "Small rodent with a long tail"
-  },
-  {
-    "word": "TEA",
-    "clue": "Hot drink made from steeped leaves"
-  },
-  {
-    "word": "SEA",
-    "clue": "Large body of salt water"
-  },
-  {
-    "word": "EAR",
-    "clue": "Body part used for hearing"
-  },
-  {
-    "word": "ARM",
-    "clue": "Limb connecting shoulder to hand"
-  },
-  {
-    "word": "LEG",
-    "clue": "Limb used for walking"
-  },
-  {
-    "word": "EYE",
-    "clue": "Organ used for seeing"
-  },
-  {
-    "word": "TOE",
-    "clue": "Digit found on a foot"
-  },
-  {
-    "word": "ICE",
-    "clue": "Frozen water"
-  },
-  {
-    "word": "FOX",
-    "clue": "Wild animal with a bushy tail"
-  },
-  {
-    "word": "OWL",
-    "clue": "Nocturnal bird known for hooting"
-  },
-  {
-    "word": "PIG",
-    "clue": "Farm animal that oinks"
-  },
-  {
     "word": "COW",
-    "clue": "Farm animal that produces milk"
+    "clue": "Farm animal that moos and gives milk",
+    "category": "Down on the Farm"
   },
   {
     "word": "HEN",
-    "clue": "Female chicken"
+    "clue": "Egg-laying farmyard bird",
+    "category": "Down on the Farm"
   },
   {
-    "word": "ANT",
-    "clue": "Tiny insect that marches in a line carrying food"
-  },
-  {
-    "word": "BEE",
-    "clue": "Insect that makes honey"
-  },
-  {
-    "word": "FLY",
-    "clue": "Buzzing pest often found near garbage or spoiled food"
-  },
-  {
-    "word": "ELK",
-    "clue": "Large deer-like forest animal"
-  },
-  {
-    "word": "BAR",
-    "clue": "Long rigid rod of metal or wood"
-  },
-  {
-    "word": "CAN",
-    "clue": "Metal container for food"
-  },
-  {
-    "word": "CUP",
-    "clue": "Container used for drinking"
-  },
-  {
-    "word": "PAN",
-    "clue": "Flat metal cooking utensil"
-  },
-  {
-    "word": "POT",
-    "clue": "Round container used for cooking"
-  },
-  {
-    "word": "BED",
-    "clue": "Furniture used for sleeping"
-  },
-  {
-    "word": "RUG",
-    "clue": "Small carpet on a floor"
-  },
-  {
-    "word": "MAT",
-    "clue": "Small floor covering by a doorway"
-  },
-  {
-    "word": "LID",
-    "clue": "Cover for a container"
-  },
-  {
-    "word": "KEY",
-    "clue": "Tool used to open a lock"
-  },
-  {
-    "word": "PEN",
-    "clue": "Tool used for writing in ink"
-  },
-  {
-    "word": "INK",
-    "clue": "Liquid used for writing"
-  },
-  {
-    "word": "LOG",
-    "clue": "Section of a cut tree trunk"
-  },
-  {
-    "word": "SAW",
-    "clue": "Tool used for cutting wood"
-  },
-  {
-    "word": "NET",
-    "clue": "Mesh used to catch fish"
-  },
-  {
-    "word": "WEB",
-    "clue": "Structure spun by a spider"
-  },
-  {
-    "word": "SKY",
-    "clue": "Expanse of air above the earth"
-  },
-  {
-    "word": "FOG",
-    "clue": "Thick mist that reduces visibility"
-  },
-  {
-    "word": "AIR",
-    "clue": "Invisible mixture of gases we breathe"
-  },
-  {
-    "word": "DAY",
-    "clue": "Period of light between sunrise and sunset"
-  },
-  {
-    "word": "AGE",
-    "clue": "Number of years someone has lived"
-  },
-  {
-    "word": "ERA",
-    "clue": "Distinct period of history"
-  },
-  {
-    "word": "OLD",
-    "clue": "Having lived many years"
-  },
-  {
-    "word": "NEW",
-    "clue": "Recently made, not old"
-  },
-  {
-    "word": "TEN",
-    "clue": "Number that comes after nine"
-  },
-  {
-    "word": "ONE",
-    "clue": "The first whole number"
-  },
-  {
-    "word": "TWO",
-    "clue": "Number that comes after one"
-  },
-  {
-    "word": "SIX",
-    "clue": "Number that comes after five"
-  },
-  {
-    "word": "WIN",
-    "clue": "To achieve victory in a contest"
-  },
-  {
-    "word": "SIT",
-    "clue": "To rest your body on a chair"
-  },
-  {
-    "word": "EAT",
-    "clue": "To chew and swallow food"
-  },
-  {
-    "word": "SEE",
-    "clue": "To perceive with the eyes"
-  },
-  {
-    "word": "TRY",
-    "clue": "To make an attempt at something"
-  },
-  {
-    "word": "CRY",
-    "clue": "To shed tears"
-  },
-  {
-    "word": "LAY",
-    "clue": "To place something down flat"
-  },
-  {
-    "word": "TIE",
-    "clue": "Strip of fabric knotted around a shirt collar"
-  },
-  {
-    "word": "PIE",
-    "clue": "Baked dessert with a pastry crust"
-  },
-  {
-    "word": "RYE",
-    "clue": "Grain often used to make bread"
-  },
-  {
-    "word": "OAT",
-    "clue": "Grain rolled thin for hot breakfast cereal"
-  },
-  {
-    "word": "ZOO",
-    "clue": "Park where wild animals are kept"
-  },
-  {
-    "word": "STAR",
-    "clue": "Glowing point of light in the night sky"
-  },
-  {
-    "word": "RAIN",
-    "clue": "Water that falls from clouds"
-  },
-  {
-    "word": "MOON",
-    "clue": "Earth's only natural satellite"
-  },
-  {
-    "word": "SNOW",
-    "clue": "Frozen white precipitation"
-  },
-  {
-    "word": "WIND",
-    "clue": "Air that moves across the land"
-  },
-  {
-    "word": "GALE",
-    "clue": "A very strong wind"
-  },
-  {
-    "word": "MIST",
-    "clue": "Thin fog near the ground"
-  },
-  {
-    "word": "HAIL",
-    "clue": "Frozen rain pellets"
-  },
-  {
-    "word": "DUSK",
-    "clue": "Time just before nightfall"
-  },
-  {
-    "word": "DAWN",
-    "clue": "Time when the sun first rises"
-  },
-  {
-    "word": "NOON",
-    "clue": "Middle of the day"
-  },
-  {
-    "word": "YEAR",
-    "clue": "Period of three hundred sixty-five days"
-  },
-  {
-    "word": "WEEK",
-    "clue": "Period of seven days"
-  },
-  {
-    "word": "HOUR",
-    "clue": "Sixty minutes"
-  },
-  {
-    "word": "TIME",
-    "clue": "What a clock measures"
-  },
-  {
-    "word": "LATE",
-    "clue": "After the expected time"
-  },
-  {
-    "word": "SOON",
-    "clue": "In a short while"
-  },
-  {
-    "word": "NEXT",
-    "clue": "Coming right after this one"
-  },
-  {
-    "word": "LAST",
-    "clue": "Final in a series"
-  },
-  {
-    "word": "DATE",
-    "clue": "A specific day on the calendar"
-  },
-  {
-    "word": "TREE",
-    "clue": "Tall plant with a trunk and branches"
-  },
-  {
-    "word": "LEAF",
-    "clue": "Flat green part of a plant"
-  },
-  {
-    "word": "HILL",
-    "clue": "Small raised area of land"
-  },
-  {
-    "word": "LAKE",
-    "clue": "Body of fresh water surrounded by land"
-  },
-  {
-    "word": "POND",
-    "clue": "Small body of still water"
-  },
-  {
-    "word": "SEAS",
-    "clue": "Large bodies of salt water"
-  },
-  {
-    "word": "DUNE",
-    "clue": "Mound of sand in a desert"
-  },
-  {
-    "word": "ROCK",
-    "clue": "Hard natural mineral mass"
-  },
-  {
-    "word": "SAND",
-    "clue": "Tiny grains found on a beach"
-  },
-  {
-    "word": "SOIL",
-    "clue": "Dirt in which plants grow"
-  },
-  {
-    "word": "BIRD",
-    "clue": "Feathered animal that can fly"
-  },
-  {
-    "word": "FISH",
-    "clue": "Animal that breathes through gills"
-  },
-  {
-    "word": "LION",
-    "clue": "Big cat called king of the jungle"
-  },
-  {
-    "word": "BEAR",
-    "clue": "Large furry animal found in forests"
-  },
-  {
-    "word": "WOLF",
-    "clue": "Wild dog that howls at night"
-  },
-  {
-    "word": "DEER",
-    "clue": "Forest animal like Bambi, hunted for venison"
-  },
-  {
-    "word": "GOAT",
-    "clue": "Horned farm animal that bleats"
-  },
-  {
-    "word": "DUCK",
-    "clue": "Waterfowl known for quacking"
-  },
-  {
-    "word": "SWAN",
-    "clue": "Elegant white water bird"
-  },
-  {
-    "word": "CRAB",
-    "clue": "Shellfish that walks sideways"
-  },
-  {
-    "word": "FROG",
-    "clue": "Amphibian that hops and croaks"
-  },
-  {
-    "word": "TOAD",
-    "clue": "Warty amphibian similar to a frog"
-  },
-  {
-    "word": "SEAL",
-    "clue": "Flippered marine mammal"
-  },
-  {
-    "word": "MOLE",
-    "clue": "Small burrowing mammal"
-  },
-  {
-    "word": "HAWK",
-    "clue": "Sharp-eyed bird of prey"
-  },
-  {
-    "word": "CROW",
-    "clue": "Black bird known for cawing"
-  },
-  {
-    "word": "OWLS",
-    "clue": "Nocturnal birds of prey"
-  },
-  {
-    "word": "BEES",
-    "clue": "Insects that make honey"
-  },
-  {
-    "word": "ANTS",
-    "clue": "Tiny insects that march in a line carrying food"
-  },
-  {
-    "word": "WASP",
-    "clue": "Stinging flying insect"
-  },
-  {
-    "word": "LAMB",
-    "clue": "A baby sheep"
-  },
-  {
-    "word": "COLT",
-    "clue": "A young male horse"
-  },
-  {
-    "word": "FOAL",
-    "clue": "A baby horse"
-  },
-  {
-    "word": "PONY",
-    "clue": "A small horse"
-  },
-  {
-    "word": "MULE",
-    "clue": "Offspring of a horse and a donkey"
-  },
-  {
-    "word": "HERD",
-    "clue": "Group of grazing animals"
-  },
-  {
-    "word": "PACK",
-    "clue": "Group of wild dogs or wolves"
-  },
-  {
-    "word": "NEST",
-    "clue": "A bird's home"
-  },
-  {
-    "word": "CAVE",
-    "clue": "Underground rocky chamber"
+    "word": "PIG",
+    "clue": "Pink farm animal that oinks and rolls in mud",
+    "category": "Down on the Farm"
   },
   {
     "word": "BARN",
-    "clue": "Farm building for storing hay or animals"
+    "clue": "Big red building where farm animals sleep",
+    "category": "Down on the Farm"
   },
   {
-    "word": "RICE",
-    "clue": "Small white grain, staple food in Asian cuisine"
+    "word": "COLT",
+    "clue": "Young male horse",
+    "category": "Down on the Farm"
   },
   {
-    "word": "CORN",
-    "clue": "Yellow kernel vegetable"
+    "word": "COOP",
+    "clue": "Little house built for hens",
+    "category": "Down on the Farm"
   },
   {
-    "word": "BEAN",
-    "clue": "Kidney or pinto legume common in chili and burritos"
+    "word": "CROP",
+    "clue": "Plants grown on a farm and gathered at harvest",
+    "category": "Down on the Farm"
   },
   {
-    "word": "PEAS",
-    "clue": "Small round green vegetables"
+    "word": "DUCK",
+    "clue": "Farm bird that quacks and loves a pond",
+    "category": "Down on the Farm"
   },
   {
-    "word": "KALE",
-    "clue": "Leafy green vegetable"
+    "word": "FOAL",
+    "clue": "Baby horse, just a few days old",
+    "category": "Down on the Farm"
   },
   {
-    "word": "LIME",
-    "clue": "Small green citrus fruit"
+    "word": "GOAT",
+    "clue": "Horned farm animal that will nibble almost anything",
+    "category": "Down on the Farm"
   },
   {
-    "word": "PLUM",
-    "clue": "Small purple stone fruit"
+    "word": "LAMB",
+    "clue": "Baby sheep",
+    "category": "Down on the Farm"
   },
   {
-    "word": "PEAR",
-    "clue": "Sweet green teardrop-shaped fruit"
+    "word": "MULE",
+    "clue": "Stubborn hybrid of a horse and a donkey",
+    "category": "Down on the Farm"
   },
   {
-    "word": "FIGS",
-    "clue": "Sweet purple fruit often dried"
+    "word": "OXEN",
+    "clue": "Strong cattle once used to pull plows",
+    "category": "Down on the Farm"
   },
   {
-    "word": "NUTS",
-    "clue": "Hard-shelled edible seeds"
+    "word": "PLOW",
+    "clue": "Farm tool that cuts furrows into soil",
+    "category": "Down on the Farm"
   },
   {
-    "word": "OATS",
-    "clue": "Grain often eaten as porridge"
-  },
-  {
-    "word": "MILK",
-    "clue": "White drink that comes from cows"
-  },
-  {
-    "word": "MEAT",
-    "clue": "Animal flesh eaten as food"
-  },
-  {
-    "word": "STEW",
-    "clue": "Slow-cooked meat and vegetable dish"
-  },
-  {
-    "word": "SOUP",
-    "clue": "Liquid food eaten with a spoon"
-  },
-  {
-    "word": "CAKE",
-    "clue": "Frosted layered dessert served at birthday parties"
-  },
-  {
-    "word": "LOAF",
-    "clue": "Shaped block of baked bread"
-  },
-  {
-    "word": "TART",
-    "clue": "Small open pastry with a filling"
-  },
-  {
-    "word": "MINT",
-    "clue": "Fresh herb used for flavoring"
-  },
-  {
-    "word": "LEEK",
-    "clue": "Long green onion-like vegetable"
-  },
-  {
-    "word": "YAMS",
-    "clue": "Starchy orange root vegetable"
-  },
-  {
-    "word": "TOFU",
-    "clue": "Soy-based protein food"
-  },
-  {
-    "word": "EGGS",
-    "clue": "Oval food laid by hens"
-  },
-  {
-    "word": "PORK",
-    "clue": "Meat that comes from pigs"
-  },
-  {
-    "word": "BEEF",
-    "clue": "Meat that comes from cattle"
-  },
-  {
-    "word": "VEAL",
-    "clue": "Meat from a young calf"
-  },
-  {
-    "word": "RIBS",
-    "clue": "Bony cuts of meat"
-  },
-  {
-    "word": "WINE",
-    "clue": "Alcoholic drink made from grapes"
-  },
-  {
-    "word": "BEER",
-    "clue": "Alcoholic drink brewed from malted grain and hops"
-  },
-  {
-    "word": "SODA",
-    "clue": "Umbrella term for a carbonated soft drink like root beer or cola"
-  },
-  {
-    "word": "COLA",
-    "clue": "Dark, caramel-colored fizzy drink like Coke or Pepsi"
-  },
-  {
-    "word": "BOWL",
-    "clue": "Round dish for food"
-  },
-  {
-    "word": "FORK",
-    "clue": "Utensil with prongs for eating"
-  },
-  {
-    "word": "OVEN",
-    "clue": "Appliance used for baking"
-  },
-  {
-    "word": "SINK",
-    "clue": "Basin used for washing dishes"
-  },
-  {
-    "word": "LAMP",
-    "clue": "Device that gives off light"
-  },
-  {
-    "word": "DESK",
-    "clue": "Table used for writing or work"
-  },
-  {
-    "word": "SOFA",
-    "clue": "Cushioned seat for multiple people"
-  },
-  {
-    "word": "DOOR",
-    "clue": "Hinged barrier for entering a room"
-  },
-  {
-    "word": "GATE",
-    "clue": "Hinged barrier in a fence"
-  },
-  {
-    "word": "ROOF",
-    "clue": "Top covering of a building"
-  },
-  {
-    "word": "WALL",
-    "clue": "Vertical structure enclosing a room"
-  },
-  {
-    "word": "YARD",
-    "clue": "Outdoor area next to a house"
-  },
-  {
-    "word": "SHED",
-    "clue": "Small outdoor storage building"
-  },
-  {
-    "word": "FARM",
-    "clue": "Land used for growing crops"
-  },
-  {
-    "word": "TOWN",
-    "clue": "Small urban area"
-  },
-  {
-    "word": "CITY",
-    "clue": "Large populated urban area"
-  },
-  {
-    "word": "ROAD",
-    "clue": "Paved path for vehicles"
-  },
-  {
-    "word": "PATH",
-    "clue": "Track made for walking"
-  },
-  {
-    "word": "LANE",
-    "clue": "Narrow road or marked strip"
-  },
-  {
-    "word": "PARK",
-    "clue": "Public outdoor recreation area"
-  },
-  {
-    "word": "MALL",
-    "clue": "Large indoor shopping center"
-  },
-  {
-    "word": "SHOP",
-    "clue": "Small retail store"
-  },
-  {
-    "word": "BANK",
-    "clue": "Institution that holds people's money"
-  },
-  {
-    "word": "CASH",
-    "clue": "Physical paper and coin money"
-  },
-  {
-    "word": "COIN",
-    "clue": "Round piece of metal money"
-  },
-  {
-    "word": "BILL",
-    "clue": "Paper money, or a list of charges"
-  },
-  {
-    "word": "DEBT",
-    "clue": "Money that is owed"
-  },
-  {
-    "word": "GIFT",
-    "clue": "A present given to someone"
-  },
-  {
-    "word": "CARD",
-    "clue": "Small rectangular piece of stiff paper"
-  },
-  {
-    "word": "NOTE",
-    "clue": "A short written message"
-  },
-  {
-    "word": "BOOK",
-    "clue": "Bound pages of printed text"
-  },
-  {
-    "word": "PAGE",
-    "clue": "One side of a sheet in a book"
-  },
-  {
-    "word": "WORD",
-    "clue": "A unit of language with meaning"
-  },
-  {
-    "word": "TEXT",
-    "clue": "The written words that make up a passage or document"
-  },
-  {
-    "word": "SIGN",
-    "clue": "Board displaying information"
-  },
-  {
-    "word": "SONG",
-    "clue": "Musical piece with lyrics"
-  },
-  {
-    "word": "TUNE",
-    "clue": "Melodic sequence of musical notes"
-  },
-  {
-    "word": "BEAT",
-    "clue": "Rhythmic pulse in music"
-  },
-  {
-    "word": "DRUM",
-    "clue": "Percussion instrument you strike"
-  },
-  {
-    "word": "HORN",
-    "clue": "Brass wind instrument"
-  },
-  {
-    "word": "BAND",
-    "clue": "Group of musicians playing together"
-  },
-  {
-    "word": "GAME",
-    "clue": "Activity played for fun"
-  },
-  {
-    "word": "TEAM",
-    "clue": "Group of players working together"
-  },
-  {
-    "word": "BALL",
-    "clue": "Round object used in many sports"
-  },
-  {
-    "word": "GOAL",
-    "clue": "A score in sports like soccer"
-  },
-  {
-    "word": "RACE",
-    "clue": "A contest of speed"
-  },
-  {
-    "word": "SWIM",
-    "clue": "To move through water using the limbs"
-  },
-  {
-    "word": "JUMP",
-    "clue": "To leap into the air"
-  },
-  {
-    "word": "KICK",
-    "clue": "To strike with the foot"
-  },
-  {
-    "word": "WAVE",
-    "clue": "A moving ridge of water"
-  },
-  {
-    "word": "SURF",
-    "clue": "To ride ocean waves on a board"
-  },
-  {
-    "word": "DIVE",
-    "clue": "To plunge headfirst into water"
-  },
-  {
-    "word": "SAIL",
-    "clue": "Cloth that catches wind to move a boat"
-  },
-  {
-    "word": "BOAT",
-    "clue": "A small watercraft"
-  },
-  {
-    "word": "SHIP",
-    "clue": "A large vessel for sea travel"
-  },
-  {
-    "word": "RAFT",
-    "clue": "A flat floating platform"
-  },
-  {
-    "word": "DOCK",
-    "clue": "Platform where boats are loaded"
-  },
-  {
-    "word": "PORT",
-    "clue": "Harbor town for ships"
-  },
-  {
-    "word": "OARS",
-    "clue": "Paddles used to row a boat"
-  },
-  {
-    "word": "TALL",
-    "clue": "Of great height"
-  },
-  {
-    "word": "WIDE",
-    "clue": "Having great width"
-  },
-  {
-    "word": "DEEP",
-    "clue": "Extending far down"
-  },
-  {
-    "word": "FLAT",
-    "clue": "Having a level, even surface"
-  },
-  {
-    "word": "THIN",
-    "clue": "Having little width"
-  },
-  {
-    "word": "SOFT",
-    "clue": "Not hard to the touch"
-  },
-  {
-    "word": "HARD",
-    "clue": "Firm and solid to the touch"
-  },
-  {
-    "word": "WARM",
-    "clue": "Moderately hot"
-  },
-  {
-    "word": "COLD",
-    "clue": "Low in temperature"
-  },
-  {
-    "word": "COOL",
-    "clue": "Slightly cold and refreshing"
-  },
-  {
-    "word": "OCEAN",
-    "clue": "Vast body of salt water"
-  },
-  {
-    "word": "RIVER",
-    "clue": "Natural flowing stream of water"
-  },
-  {
-    "word": "CLOUD",
-    "clue": "Visible mass of water vapor in the sky"
-  },
-  {
-    "word": "STORM",
-    "clue": "Violent weather with wind and rain"
-  },
-  {
-    "word": "EARTH",
-    "clue": "Planet we live on"
-  },
-  {
-    "word": "BEACH",
-    "clue": "Sandy shore by the sea"
-  },
-  {
-    "word": "STONE",
-    "clue": "Small piece of rock"
-  },
-  {
-    "word": "FIELD",
-    "clue": "Open area of grass or crops"
-  },
-  {
-    "word": "WOODS",
-    "clue": "Area covered with trees"
-  },
-  {
-    "word": "GRASS",
-    "clue": "Green plant covering lawns"
-  },
-  {
-    "word": "THORN",
-    "clue": "Sharp point on a plant stem"
-  },
-  {
-    "word": "PETAL",
-    "clue": "Colorful part of a flower"
-  },
-  {
-    "word": "TULIP",
-    "clue": "Spring flower shaped like a cup"
-  },
-  {
-    "word": "GRAIN",
-    "clue": "Seed of a cereal plant"
-  },
-  {
-    "word": "FROST",
-    "clue": "Thin ice coating from cold weather"
-  },
-  {
-    "word": "SMOKE",
-    "clue": "Visible vapor rising from fire"
-  },
-  {
-    "word": "FLAME",
-    "clue": "Burning gas produced by fire"
-  },
-  {
-    "word": "EMBER",
-    "clue": "Glowing piece of burnt wood"
-  },
-  {
-    "word": "ASHES",
-    "clue": "Remains left after something burns"
-  },
-  {
-    "word": "SPARK",
-    "clue": "Small fiery particle"
-  },
-  {
-    "word": "BLAZE",
-    "clue": "Large intense fire"
-  },
-  {
-    "word": "STEAM",
-    "clue": "Vapor rising from boiling water"
-  },
-  {
-    "word": "TIGER",
-    "clue": "Large striped wild cat"
-  },
-  {
-    "word": "HORSE",
-    "clue": "Large animal used for riding"
-  },
-  {
-    "word": "SHEEP",
-    "clue": "Farm animal that produces wool"
+    "word": "PONY",
+    "clue": "Small breed of horse",
+    "category": "Down on the Farm"
   },
   {
     "word": "GOOSE",
-    "clue": "Large waterfowl with webbed feet"
+    "clue": "Honking farmyard bird bigger than a duck",
+    "category": "Down on the Farm"
   },
   {
-    "word": "EAGLE",
-    "clue": "Large bird of prey"
+    "word": "HORSE",
+    "clue": "Farm animal you saddle up and ride",
+    "category": "Down on the Farm"
   },
   {
-    "word": "ROBIN",
-    "clue": "Small songbird with a red breast"
+    "word": "LLAMA",
+    "clue": "Woolly pack animal from the Andes",
+    "category": "Down on the Farm"
   },
   {
-    "word": "SNAKE",
-    "clue": "Legless reptile"
+    "word": "SHEEP",
+    "clue": "Woolly farm animal that says baa",
+    "category": "Down on the Farm"
   },
   {
-    "word": "WHALE",
-    "clue": "Huge mammal that lives in the sea"
-  },
-  {
-    "word": "SHARK",
-    "clue": "Large predatory fish"
-  },
-  {
-    "word": "TROUT",
-    "clue": "Freshwater fish often caught for sport"
-  },
-  {
-    "word": "PANDA",
-    "clue": "Black and white bear from China"
-  },
-  {
-    "word": "ZEBRA",
-    "clue": "Striped African animal"
-  },
-  {
-    "word": "KOALA",
-    "clue": "Tree-dwelling Australian marsupial"
-  },
-  {
-    "word": "CAMEL",
-    "clue": "Desert animal with a humped back"
-  },
-  {
-    "word": "OTTER",
-    "clue": "Playful aquatic mammal"
-  },
-  {
-    "word": "CRANE",
-    "clue": "Tall machine used to lift heavy loads at a construction site"
-  },
-  {
-    "word": "HERON",
-    "clue": "Long-legged wading bird"
-  },
-  {
-    "word": "FINCH",
-    "clue": "Small seed-eating songbird"
-  },
-  {
-    "word": "MOUSE",
-    "clue": "Small rodent"
-  },
-  {
-    "word": "HOUND",
-    "clue": "Dog bred for hunting"
-  },
-  {
-    "word": "MOOSE",
-    "clue": "Large antlered animal of northern forests"
-  },
-  {
-    "word": "GECKO",
-    "clue": "Small climbing lizard"
-  },
-  {
-    "word": "HEART",
-    "clue": "Organ that pumps blood"
-  },
-  {
-    "word": "BRAIN",
-    "clue": "Organ used for thinking"
-  },
-  {
-    "word": "ELBOW",
-    "clue": "Joint between the upper and lower arm"
-  },
-  {
-    "word": "ANKLE",
-    "clue": "Joint connecting the foot and leg"
-  },
-  {
-    "word": "THUMB",
-    "clue": "Short thick digit of the hand"
-  },
-  {
-    "word": "CHEST",
-    "clue": "Front of the body between neck and stomach"
-  },
-  {
-    "word": "WRIST",
-    "clue": "Joint between the hand and arm"
-  },
-  {
-    "word": "TOOTH",
-    "clue": "Hard structure used for biting"
-  },
-  {
-    "word": "SPINE",
-    "clue": "Column of bones down the back"
-  },
-  {
-    "word": "SMILE",
-    "clue": "Happy facial expression"
-  },
-  {
-    "word": "LAUGH",
-    "clue": "Sound made when amused"
-  },
-  {
-    "word": "DANCE",
-    "clue": "Rhythmic movement to music"
-  },
-  {
-    "word": "WORRY",
-    "clue": "Feeling of anxious concern"
-  },
-  {
-    "word": "HAPPY",
-    "clue": "Feeling joy or contentment"
-  },
-  {
-    "word": "ANGRY",
-    "clue": "Feeling strong displeasure"
-  },
-  {
-    "word": "QUIET",
-    "clue": "Making very little noise"
-  },
-  {
-    "word": "TIRED",
-    "clue": "Needing rest or sleep"
-  },
-  {
-    "word": "SLEEP",
-    "clue": "State of rest with closed eyes"
-  },
-  {
-    "word": "DREAM",
-    "clue": "Images experienced during sleep"
-  },
-  {
-    "word": "HOUSE",
-    "clue": "Building where people live"
-  },
-  {
-    "word": "CHAIR",
-    "clue": "Seat with a back and legs"
-  },
-  {
-    "word": "TABLE",
-    "clue": "Furniture with a flat top"
-  },
-  {
-    "word": "FENCE",
-    "clue": "Barrier enclosing a yard"
-  },
-  {
-    "word": "TOWER",
-    "clue": "Tall narrow building"
-  },
-  {
-    "word": "CROWN",
-    "clue": "Ornamental headpiece worn by royalty"
-  },
-  {
-    "word": "CLOCK",
-    "clue": "Device that tells time"
-  },
-  {
-    "word": "WATCH",
-    "clue": "Timepiece worn on the wrist"
-  },
-  {
-    "word": "TIMER",
-    "clue": "Device that counts down time"
-  },
-  {
-    "word": "ALARM",
-    "clue": "Device that signals a warning"
-  },
-  {
-    "word": "PHONE",
-    "clue": "Device used to make calls"
-  },
-  {
-    "word": "RADIO",
-    "clue": "Device that receives broadcast sound"
-  },
-  {
-    "word": "VIDEO",
-    "clue": "Recorded moving pictures"
-  },
-  {
-    "word": "TORCH",
-    "clue": "Portable light source with a flame"
-  },
-  {
-    "word": "GLASS",
-    "clue": "Hard transparent material"
-  },
-  {
-    "word": "BRICK",
-    "clue": "Rectangular building block"
-  },
-  {
-    "word": "CLOTH",
-    "clue": "Woven fabric material"
-  },
-  {
-    "word": "TOWEL",
-    "clue": "Cloth used for drying"
-  },
-  {
-    "word": "BROOM",
-    "clue": "Tool used for sweeping floors"
-  },
-  {
-    "word": "BREAD",
-    "clue": "Baked food made from flour"
-  },
-  {
-    "word": "LEMON",
-    "clue": "Sour yellow citrus fruit"
-  },
-  {
-    "word": "GRAPE",
-    "clue": "Small round fruit that grows in bunches"
-  },
-  {
-    "word": "MANGO",
-    "clue": "Sweet tropical orange fruit"
-  },
-  {
-    "word": "PEACH",
-    "clue": "Fuzzy orange-pink fruit"
-  },
-  {
-    "word": "APPLE",
-    "clue": "Round fruit, often red or green"
-  },
-  {
-    "word": "MELON",
-    "clue": "Large round sweet fruit"
-  },
-  {
-    "word": "GUAVA",
-    "clue": "Tropical fruit with pink flesh"
-  },
-  {
-    "word": "OLIVE",
-    "clue": "Small fruit often pressed for oil"
-  },
-  {
-    "word": "BERRY",
-    "clue": "General term for small juicy fruits like strawberries or blueberries"
-  },
-  {
-    "word": "ONION",
-    "clue": "Vegetable that makes you cry"
-  },
-  {
-    "word": "PASTA",
-    "clue": "Italian noodles like spaghetti or macaroni"
-  },
-  {
-    "word": "PIZZA",
-    "clue": "Italian dish topped with cheese"
-  },
-  {
-    "word": "SUGAR",
-    "clue": "Sweet crystalline substance"
-  },
-  {
-    "word": "HONEY",
-    "clue": "Sweet substance made by bees"
-  },
-  {
-    "word": "CREAM",
-    "clue": "Thick fatty part of milk"
-  },
-  {
-    "word": "STEAK",
-    "clue": "Slice of meat, often beef"
-  },
-  {
-    "word": "BACON",
-    "clue": "Cured meat from a pig"
-  },
-  {
-    "word": "TOAST",
-    "clue": "Browned slice of bread"
-  },
-  {
-    "word": "SALAD",
-    "clue": "Mixed dish of vegetables"
-  },
-  {
-    "word": "JUICE",
-    "clue": "Liquid squeezed from fruit"
-  },
-  {
-    "word": "WHEAT",
-    "clue": "Grain used to make flour"
-  },
-  {
-    "word": "GRAVY",
-    "clue": "Sauce made from meat juices"
-  },
-  {
-    "word": "SHIRT",
-    "clue": "Garment worn on the upper body"
-  },
-  {
-    "word": "PANTS",
-    "clue": "Clothing covering the legs"
-  },
-  {
-    "word": "SKIRT",
-    "clue": "Garment worn below the waist"
-  },
-  {
-    "word": "DRESS",
-    "clue": "One-piece garment worn by women"
-  },
-  {
-    "word": "GLOVE",
-    "clue": "Hand covering with slots for fingers"
-  },
-  {
-    "word": "BOOTS",
-    "clue": "Sturdy footwear covering the ankle"
-  },
-  {
-    "word": "SOCKS",
-    "clue": "Foot coverings worn inside shoes"
-  },
-  {
-    "word": "SCARF",
-    "clue": "Cloth worn around the neck"
-  },
-  {
-    "word": "SNOWY",
-    "clue": "Covered with snow"
-  },
-  {
-    "word": "WINDY",
-    "clue": "Having strong moving air"
-  },
-  {
-    "word": "SUNNY",
-    "clue": "Bright with sunshine"
-  },
-  {
-    "word": "RAINY",
-    "clue": "Full of falling rain"
-  },
-  {
-    "word": "CHILL",
-    "clue": "Feeling of moderate coldness"
-  },
-  {
-    "word": "BLACK",
-    "clue": "Darkest color, opposite of white"
-  },
-  {
-    "word": "WHITE",
-    "clue": "Color of fresh snow"
-  },
-  {
-    "word": "GREEN",
-    "clue": "Color of fresh grass"
-  },
-  {
-    "word": "BROWN",
-    "clue": "Color of chocolate or coffee"
-  },
-  {
-    "word": "IVORY",
-    "clue": "Hard white material from tusks"
-  },
-  {
-    "word": "METAL",
-    "clue": "Hard shiny material such as iron or gold"
-  },
-  {
-    "word": "STEEL",
-    "clue": "Strong metal alloy used in tools"
-  },
-  {
-    "word": "PLANK",
-    "clue": "Long flat piece of wood"
-  },
-  {
-    "word": "TRUCK",
-    "clue": "Large vehicle for hauling goods"
-  },
-  {
-    "word": "TRAIN",
-    "clue": "Line of connected railway cars"
-  },
-  {
-    "word": "PLANE",
-    "clue": "Aircraft with fixed wings"
-  },
-  {
-    "word": "WHEEL",
-    "clue": "Round object that turns for movement"
-  },
-  {
-    "word": "BRAKE",
-    "clue": "Device used to stop a vehicle"
-  },
-  {
-    "word": "MOTOR",
-    "clue": "Engine that powers a machine"
-  },
-  {
-    "word": "CHESS",
-    "clue": "Strategy board game with kings and queens"
-  },
-  {
-    "word": "RUGBY",
-    "clue": "Team sport played with an oval ball"
-  },
-  {
-    "word": "BOXER",
-    "clue": "Athlete who fights with fists"
-  },
-  {
-    "word": "MEDAL",
-    "clue": "Award given for an achievement"
-  },
-  {
-    "word": "STORY",
-    "clue": "Narrative account of events"
-  },
-  {
-    "word": "NOVEL",
-    "clue": "Long fictional book"
-  },
-  {
-    "word": "VERSE",
-    "clue": "Line of poetry"
-  },
-  {
-    "word": "RHYME",
-    "clue": "Words that sound alike at the end"
-  },
-  {
-    "word": "WORDS",
-    "clue": "Units of written or spoken language"
-  },
-  {
-    "word": "PAPER",
-    "clue": "Thin material used for writing"
-  },
-  {
-    "word": "STAMP",
-    "clue": "Small adhesive postage item"
-  },
-  {
-    "word": "SEVEN",
-    "clue": "Number between six and eight"
-  },
-  {
-    "word": "EIGHT",
-    "clue": "Number between seven and nine"
-  },
-  {
-    "word": "THREE",
-    "clue": "Number between two and four"
-  },
-  {
-    "word": "SIXTY",
-    "clue": "Number equal to six times ten"
-  },
-  {
-    "word": "FORTY",
-    "clue": "Number equal to four times ten"
-  },
-  {
-    "word": "MONEY",
-    "clue": "Currency used to buy things"
-  },
-  {
-    "word": "POWER",
-    "clue": "Ability to do work or control"
-  },
-  {
-    "word": "LASER",
-    "clue": "Focused narrow beam of light"
-  },
-  {
-    "word": "ROBOT",
-    "clue": "Machine that performs tasks automatically"
-  },
-  {
-    "word": "STAGE",
-    "clue": "Raised platform for performances"
-  },
-  {
-    "word": "PANEL",
-    "clue": "Flat section of a surface or board"
-  },
-  {
-    "word": "LEVEL",
-    "clue": "Degree of height or amount"
-  },
-  {
-    "word": "MODEL",
-    "clue": "Small representation of something"
-  },
-  {
-    "word": "LABEL",
-    "clue": "Tag giving information about an item"
-  },
-  {
-    "word": "TOKEN",
-    "clue": "Small metal disc used instead of coins in an arcade machine"
-  },
-  {
-    "word": "ROUTE",
-    "clue": "Path taken to get somewhere"
-  },
-  {
-    "word": "TREND",
-    "clue": "General direction something is developing"
-  },
-  {
-    "word": "STYLE",
-    "clue": "Particular way of doing something"
-  },
-  {
-    "word": "SOLID",
-    "clue": "Firm and stable, not liquid or gas"
-  },
-  {
-    "word": "RAPID",
-    "clue": "Very fast"
-  },
-  {
-    "word": "MAJOR",
-    "clue": "Greater in importance or size"
-  },
-  {
-    "word": "MINOR",
-    "clue": "Lesser in importance or size"
-  },
-  {
-    "word": "EQUAL",
-    "clue": "Same in amount or value"
-  },
-  {
-    "word": "BASIC",
-    "clue": "Simplest or most fundamental"
-  },
-  {
-    "word": "SUPER",
-    "clue": "Excellent or outstanding"
-  },
-  {
-    "word": "GIANT",
-    "clue": "Extremely large in size"
-  },
-  {
-    "word": "SOLAR",
-    "clue": "Relating to the sun"
-  },
-  {
-    "word": "GARDEN",
-    "clue": "Plot where flowers or vegetables grow"
-  },
-  {
-    "word": "PLANET",
-    "clue": "Large body orbiting a star"
-  },
-  {
-    "word": "CASTLE",
-    "clue": "Fortified building with towers"
-  },
-  {
-    "word": "FLOWER",
-    "clue": "Colorful bloom of a plant"
-  },
-  {
-    "word": "WINDOW",
-    "clue": "Opening in a wall for light"
-  },
-  {
-    "word": "BASKET",
-    "clue": "Container woven from reeds"
-  },
-  {
-    "word": "BUTTON",
-    "clue": "Small disk that fastens clothing"
-  },
-  {
-    "word": "CANDLE",
-    "clue": "Wax stick with a wick for light"
-  },
-  {
-    "word": "DRAGON",
-    "clue": "Mythical fire-breathing creature"
-  },
-  {
-    "word": "FOREST",
-    "clue": "Large area covered in trees"
-  },
-  {
-    "word": "GUITAR",
-    "clue": "Stringed instrument played by strumming"
-  },
-  {
-    "word": "HAMMER",
-    "clue": "Tool for driving nails"
-  },
-  {
-    "word": "ISLAND",
-    "clue": "Land surrounded by water"
-  },
-  {
-    "word": "JACKET",
-    "clue": "Short coat worn outdoors"
-  },
-  {
-    "word": "KETTLE",
-    "clue": "Pot used for boiling water"
-  },
-  {
-    "word": "LADDER",
-    "clue": "Climbing frame with rungs"
-  },
-  {
-    "word": "MARKET",
-    "clue": "Place where goods are bought and sold"
-  },
-  {
-    "word": "NATURE",
-    "clue": "The physical world around us"
-  },
-  {
-    "word": "ORANGE",
-    "clue": "Citrus fruit with a thick peel"
-  },
-  {
-    "word": "PENCIL",
-    "clue": "Writing tool with a graphite core"
-  },
-  {
-    "word": "RABBIT",
-    "clue": "Long-eared hopping mammal"
-  },
-  {
-    "word": "SILVER",
-    "clue": "Shiny white precious metal"
-  },
-  {
-    "word": "TURKEY",
-    "clue": "Large bird often roasted for dinner"
-  },
-  {
-    "word": "VALLEY",
-    "clue": "Low land between hills"
-  },
-  {
-    "word": "WALNUT",
-    "clue": "Wrinkled nut resembling a small brain, used in banana bread"
-  },
-  {
-    "word": "YELLOW",
-    "clue": "Color of ripe lemons"
-  },
-  {
-    "word": "ANIMAL",
-    "clue": "Living creature that is not a plant"
-  },
-  {
-    "word": "BANANA",
-    "clue": "Curved yellow tropical fruit"
-  },
-  {
-    "word": "CAMERA",
-    "clue": "Device used to take photographs"
-  },
-  {
-    "word": "DINNER",
-    "clue": "Main evening meal"
-  },
-  {
-    "word": "ENGINE",
-    "clue": "Machine that powers a vehicle"
-  },
-  {
-    "word": "FAMILY",
-    "clue": "Group of related people"
-  },
-  {
-    "word": "GLOBAL",
-    "clue": "Relating to the whole world"
-  },
-  {
-    "word": "HOCKEY",
-    "clue": "Sport played with sticks and a puck"
-  },
-  {
-    "word": "IMPORT",
-    "clue": "Bring goods in from another country"
-  },
-  {
-    "word": "KIDNEY",
-    "clue": "Organ that filters blood"
-  },
-  {
-    "word": "LAWYER",
-    "clue": "Professional who represents clients in court"
-  },
-  {
-    "word": "MOTHER",
-    "clue": "Female parent"
-  },
-  {
-    "word": "NICKEL",
-    "clue": "Metal used in five-cent coins"
-  },
-  {
-    "word": "OFFICE",
-    "clue": "Room where people work at desks"
-  },
-  {
-    "word": "PARROT",
-    "clue": "Colorful bird that can mimic speech"
-  },
-  {
-    "word": "QUIVER",
-    "clue": "Case for carrying arrows"
-  },
-  {
-    "word": "RAISIN",
-    "clue": "Dried grape"
-  },
-  {
-    "word": "SALMON",
-    "clue": "Pink-fleshed fish"
-  },
-  {
-    "word": "TAILOR",
-    "clue": "Person who makes and alters clothes"
-  },
-  {
-    "word": "UNCOIL",
-    "clue": "Unroll or unravel something wound into a spiral"
-  },
-  {
-    "word": "VOYAGE",
-    "clue": "Long journey by sea"
-  },
-  {
-    "word": "WINTER",
-    "clue": "Coldest season of the year"
-  },
-  {
-    "word": "ABROAD",
-    "clue": "In or to a foreign country"
-  },
-  {
-    "word": "BRIDGE",
-    "clue": "Structure spanning a river or road"
-  },
-  {
-    "word": "CIRCLE",
-    "clue": "Perfectly round shape"
-  },
-  {
-    "word": "DOCTOR",
-    "clue": "Physician who diagnoses and treats illness"
-  },
-  {
-    "word": "FATHER",
-    "clue": "Male parent"
-  },
-  {
-    "word": "HELMET",
-    "clue": "Protective headgear"
-  },
-  {
-    "word": "INSECT",
-    "clue": "Small six-legged creature"
-  },
-  {
-    "word": "LEGACY",
-    "clue": "Something handed down from the past"
-  },
-  {
-    "word": "MASTER",
-    "clue": "One with complete command over a skill or craft"
-  },
-  {
-    "word": "NEEDLE",
-    "clue": "Thin pointed sewing tool"
-  },
-  {
-    "word": "OYSTER",
-    "clue": "Shellfish that can produce pearls"
-  },
-  {
-    "word": "SPIDER",
-    "clue": "Eight-legged creature that spins webs"
-  },
-  {
-    "word": "TEMPLE",
-    "clue": "Building used for worship"
-  },
-  {
-    "word": "UNEASY",
-    "clue": "Feeling worried or uncomfortable"
-  },
-  {
-    "word": "VOLUME",
-    "clue": "Amount of space something occupies"
-  },
-  {
-    "word": "WALLET",
-    "clue": "Small case for carrying money"
-  },
-  {
-    "word": "ALMOND",
-    "clue": "Oval, teardrop-shaped nut used to make marzipan"
-  },
-  {
-    "word": "CANYON",
-    "clue": "Deep gorge carved by a river"
-  },
-  {
-    "word": "DESERT",
-    "clue": "Dry, sandy region with little rain"
-  },
-  {
-    "word": "EXPERT",
-    "clue": "Specialist with deep knowledge in a particular field"
-  },
-  {
-    "word": "FINGER",
-    "clue": "Digit on a hand"
-  },
-  {
-    "word": "GOLDEN",
-    "clue": "Made of or colored like gold"
-  },
-  {
-    "word": "HARBOR",
-    "clue": "Sheltered place for ships to dock"
-  },
-  {
-    "word": "INDIGO",
-    "clue": "Deep blue-purple color"
-  },
-  {
-    "word": "KIMONO",
-    "clue": "Traditional Japanese robe"
-  },
-  {
-    "word": "LAGOON",
-    "clue": "Shallow body of water near the sea"
-  },
-  {
-    "word": "MAGNET",
-    "clue": "Object that attracts iron"
-  },
-  {
-    "word": "NUGGET",
-    "clue": "Small lump, often of gold"
-  },
-  {
-    "word": "MODULE",
-    "clue": "Self-contained component of a system"
-  },
-  {
-    "word": "RECORD",
-    "clue": "Account kept for future reference"
-  },
-  {
-    "word": "SPONGE",
-    "clue": "Porous material that soaks up water"
-  },
-  {
-    "word": "TUNNEL",
-    "clue": "Underground passage"
-  },
-  {
-    "word": "UPWARD",
-    "clue": "Moving toward a higher place"
-  },
-  {
-    "word": "VESSEL",
-    "clue": "Ship or boat"
-  },
-  {
-    "word": "WEASEL",
-    "clue": "Small, slender predatory mammal"
-  },
-  {
-    "word": "ANCHOR",
-    "clue": "Heavy object that keeps a ship in place"
-  },
-  {
-    "word": "BARLEY",
-    "clue": "Cereal grain used in brewing"
-  },
-  {
-    "word": "DINGHY",
-    "clue": "Small open boat"
-  },
-  {
-    "word": "FACTOR",
-    "clue": "Element contributing to a result"
-  },
-  {
-    "word": "GARLIC",
-    "clue": "Pungent bulb made of cloves, used in cooking"
-  },
-  {
-    "word": "HUNTER",
-    "clue": "Person who tracks and kills wild game for food or sport"
-  },
-  {
-    "word": "LIZARD",
-    "clue": "Reptile with four legs and a tail"
-  },
-  {
-    "word": "MELLOW",
-    "clue": "Soft and mild in character"
-  },
-  {
-    "word": "NOODLE",
-    "clue": "Long thin strip of pasta"
-  },
-  {
-    "word": "ORIGIN",
-    "clue": "The point where something begins"
-  },
-  {
-    "word": "PEBBLE",
-    "clue": "Small smooth stone"
-  },
-  {
-    "word": "RAVINE",
-    "clue": "Deep narrow gorge"
-  },
-  {
-    "word": "SADDLE",
-    "clue": "Seat for a rider on a horse"
-  },
-  {
-    "word": "TISSUE",
-    "clue": "Soft paper used for wiping"
-  },
-  {
-    "word": "VERMIN",
-    "clue": "Wild animals considered pests"
-  },
-  {
-    "word": "ARCTIC",
-    "clue": "Region around the North Pole"
-  },
-  {
-    "word": "BEACON",
-    "clue": "Guiding light or signal"
-  },
-  {
-    "word": "CIRCUS",
-    "clue": "Traveling show with acrobats and animals"
-  },
-  {
-    "word": "DOMINO",
-    "clue": "Small rectangular tile used in a game"
-  },
-  {
-    "word": "ENAMEL",
-    "clue": "Hard coating on teeth"
-  },
-  {
-    "word": "FOSSIL",
-    "clue": "Preserved remains of an ancient organism"
-  },
-  {
-    "word": "GRAVEL",
-    "clue": "Small loose stones"
-  },
-  {
-    "word": "DANGER",
-    "clue": "Possibility of harm"
-  },
-  {
-    "word": "INFANT",
-    "clue": "Very young child"
-  },
-  {
-    "word": "KNIGHT",
-    "clue": "Medieval warrior who served a lord"
-  },
-  {
-    "word": "LETTER",
-    "clue": "Written message sent to someone"
-  },
-  {
-    "word": "MAMMAL",
-    "clue": "Warm-blooded animal that nurses its young"
-  },
-  {
-    "word": "NATION",
-    "clue": "A country and its people"
-  },
-  {
-    "word": "ORCHID",
-    "clue": "Exotic flower with a distinctive lip-shaped petal, often worn as a corsage"
-  },
-  {
-    "word": "PARCEL",
-    "clue": "Package sent by mail"
-  },
-  {
-    "word": "RATION",
-    "clue": "Fixed amount allotted per person"
-  },
-  {
-    "word": "SPRUCE",
-    "clue": "Type of evergreen tree"
-  },
-  {
-    "word": "TRIBAL",
-    "clue": "Relating to a tribe or clan"
-  },
-  {
-    "word": "UNWIND",
-    "clue": "To relax after stress or work"
-  },
-  {
-    "word": "VERBAL",
-    "clue": "Spoken rather than written"
-  },
-  {
-    "word": "WISDOM",
-    "clue": "Knowledge gained through experience"
-  },
-  {
-    "word": "ASSIST",
-    "clue": "To help someone with a task"
-  },
-  {
-    "word": "BEETLE",
-    "clue": "Insect with a hard wing case"
-  },
-  {
-    "word": "CARROT",
-    "clue": "Orange root vegetable"
+    "word": "CATTLE",
+    "clue": "Cows and bulls, collectively",
+    "category": "Down on the Farm"
   },
   {
     "word": "DONKEY",
-    "clue": "Long-eared animal related to the horse"
+    "clue": "Long-eared farm animal known for stubbornness",
+    "category": "Down on the Farm"
   },
   {
-    "word": "ELEVEN",
-    "clue": "Number after ten"
+    "word": "PIGLET",
+    "clue": "A baby pig",
+    "category": "Down on the Farm"
   },
   {
-    "word": "FALCON",
-    "clue": "Fast bird of prey"
+    "word": "RABBIT",
+    "clue": "Long-eared hopper often kept in a hutch",
+    "category": "Down on the Farm"
   },
   {
-    "word": "HAMLET",
-    "clue": "Small village"
+    "word": "SADDLE",
+    "clue": "Leather seat strapped onto a horse's back",
+    "category": "Down on the Farm"
   },
   {
-    "word": "ICICLE",
-    "clue": "Hanging spike of ice"
+    "word": "STABLE",
+    "clue": "Barn built specifically for housing horses",
+    "category": "Down on the Farm"
   },
   {
-    "word": "SPIRAL",
-    "clue": "Curved shape winding around a center"
-  },
-  {
-    "word": "LENGTH",
-    "clue": "Measurement from one end to the other"
-  },
-  {
-    "word": "MODEST",
-    "clue": "Not boastful or excessive"
-  },
-  {
-    "word": "NARROW",
-    "clue": "Not wide"
-  },
-  {
-    "word": "OUTFIT",
-    "clue": "A set of clothes worn together"
-  },
-  {
-    "word": "PISTOL",
-    "clue": "Small handgun"
-  },
-  {
-    "word": "RATTLE",
-    "clue": "Baby's toy that makes noise when shaken"
-  },
-  {
-    "word": "SEASON",
-    "clue": "One of the four parts of the year"
-  },
-  {
-    "word": "STREAM",
-    "clue": "Small flowing body of water"
-  },
-  {
-    "word": "THRONE",
-    "clue": "Ceremonial chair for a monarch"
-  },
-  {
-    "word": "PURPLE",
-    "clue": "Color made by mixing red and blue"
-  },
-  {
-    "word": "SUNSET",
-    "clue": "Time when the sun goes down"
-  },
-  {
-    "word": "ROCKET",
-    "clue": "Vehicle that travels into space"
-  },
-  {
-    "word": "ABDOMEN",
-    "clue": "The belly region of the body"
-  },
-  {
-    "word": "ABSENCE",
-    "clue": "State of being away or not present"
-  },
-  {
-    "word": "ABSTAIN",
-    "clue": "To choose not to vote"
-  },
-  {
-    "word": "ANCIENT",
-    "clue": "Very old, from long ago"
-  },
-  {
-    "word": "ARCHIVE",
-    "clue": "Collection of historical records"
-  },
-  {
-    "word": "AIRPORT",
-    "clue": "Place where planes take off and land"
-  },
-  {
-    "word": "BALANCE",
-    "clue": "Even distribution of weight"
-  },
-  {
-    "word": "BALCONY",
-    "clue": "Platform that projects from a building"
-  },
-  {
-    "word": "BALLOON",
-    "clue": "Inflatable rubber toy filled with air"
-  },
-  {
-    "word": "BEDROOM",
-    "clue": "Room used for sleeping"
-  },
-  {
-    "word": "BROTHER",
-    "clue": "Male sibling"
-  },
-  {
-    "word": "CABINET",
-    "clue": "Cupboard used for storage"
-  },
-  {
-    "word": "CAPTAIN",
-    "clue": "Leader of a ship or team"
-  },
-  {
-    "word": "CENTURY",
-    "clue": "A period of one hundred years"
+    "word": "TURKEY",
+    "clue": "Big farm bird famous for Thanksgiving dinner",
+    "category": "Down on the Farm"
   },
   {
     "word": "CHICKEN",
-    "clue": "Common farm bird raised for meat and eggs"
+    "clue": "Farm bird raised for its eggs and meat",
+    "category": "Down on the Farm"
   },
   {
-    "word": "CRACKER",
-    "clue": "Thin, crispy baked snack"
+    "word": "HARVEST",
+    "clue": "The yearly gathering-in of ripe crops",
+    "category": "Down on the Farm"
   },
   {
-    "word": "DEFAULT",
-    "clue": "Standard option chosen automatically"
+    "word": "PASTURE",
+    "clue": "Grassy field where livestock graze",
+    "category": "Down on the Farm"
   },
   {
-    "word": "DENTIST",
-    "clue": "Doctor who cares for teeth"
+    "word": "ROOSTER",
+    "clue": "Male chicken that crows at sunrise",
+    "category": "Down on the Farm"
   },
   {
-    "word": "DESKTOP",
-    "clue": "Stationary computer for a desk"
+    "word": "TRACTOR",
+    "clue": "Big-wheeled machine that pulls farm equipment",
+    "category": "Down on the Farm"
   },
   {
-    "word": "DIAMOND",
-    "clue": "Extremely hard, precious gemstone"
+    "word": "FARMYARD",
+    "clue": "Open area surrounded by barns and coops",
+    "category": "Down on the Farm"
   },
   {
-    "word": "DRAWING",
-    "clue": "Picture made with pencil or pen"
+    "word": "HAYSTACK",
+    "clue": "Tall pile of dried grass for winter feed",
+    "category": "Down on the Farm"
   },
   {
-    "word": "EARRING",
-    "clue": "Jewelry worn on the ear"
+    "word": "SHEEPDOG",
+    "clue": "Dog breed trained to herd flocks",
+    "category": "Down on the Farm"
   },
   {
-    "word": "EASTERN",
-    "clue": "Relating to the east"
+    "word": "STALLION",
+    "clue": "Adult male horse, especially one used for breeding",
+    "category": "Down on the Farm"
   },
   {
-    "word": "EMBASSY",
-    "clue": "Diplomatic office representing a country abroad"
+    "word": "BAT",
+    "clue": "Only mammal that can truly fly",
+    "category": "Wild Animals"
   },
   {
-    "word": "FACTORY",
-    "clue": "Building where goods are manufactured"
+    "word": "ELK",
+    "clue": "Large antlered deer of North America",
+    "category": "Wild Animals"
   },
   {
-    "word": "FANTASY",
-    "clue": "Imaginative story involving magic"
+    "word": "FOX",
+    "clue": "Sly forest animal with a bushy red tail",
+    "category": "Wild Animals"
   },
   {
-    "word": "FISHING",
-    "clue": "Catching fish as a hobby or job"
+    "word": "BEAR",
+    "clue": "Big furry forest animal that loves honey",
+    "category": "Wild Animals"
   },
   {
-    "word": "FORTUNE",
-    "clue": "Great wealth, or one's luck"
+    "word": "DEER",
+    "clue": "Antlered forest animal, often seen at dusk",
+    "category": "Wild Animals"
   },
   {
-    "word": "FREEDOM",
-    "clue": "The state of being free"
+    "word": "LION",
+    "clue": "Maned big cat known as king of the jungle",
+    "category": "Wild Animals"
   },
   {
-    "word": "GALLERY",
-    "clue": "Room or building for viewing art"
+    "word": "MOLE",
+    "clue": "Nearly blind mammal that tunnels underground",
+    "category": "Wild Animals"
   },
   {
-    "word": "GENUINE",
-    "clue": "Real and authentic, not fake"
+    "word": "WOLF",
+    "clue": "Wild relative of the dog that howls at the moon",
+    "category": "Wild Animals"
   },
   {
-    "word": "GREATLY",
-    "clue": "To a large extent"
+    "word": "CAMEL",
+    "clue": "Desert animal that stores fat in its hump",
+    "category": "Wild Animals"
   },
   {
-    "word": "HABITAT",
-    "clue": "Natural home of an animal"
+    "word": "HYENA",
+    "clue": "African predator famous for its cackling call",
+    "category": "Wild Animals"
   },
   {
-    "word": "HAMMOCK",
-    "clue": "Hanging bed made of netting"
+    "word": "KOALA",
+    "clue": "Sleepy Australian marsupial that eats eucalyptus",
+    "category": "Wild Animals"
   },
   {
-    "word": "HARMONY",
-    "clue": "Pleasant agreement of sounds or ideas"
+    "word": "MOOSE",
+    "clue": "Enormous antlered animal of northern forests",
+    "category": "Wild Animals"
   },
   {
-    "word": "HISTORY",
-    "clue": "Study of past events"
+    "word": "OTTER",
+    "clue": "Playful swimmer that cracks shells on its belly",
+    "category": "Wild Animals"
   },
   {
-    "word": "HOLIDAY",
-    "clue": "A day of celebration or rest"
+    "word": "PANDA",
+    "clue": "Black-and-white bear that mostly eats bamboo",
+    "category": "Wild Animals"
   },
   {
-    "word": "ICEBERG",
-    "clue": "Large floating chunk of ice"
+    "word": "SKUNK",
+    "clue": "Black-and-white animal best known for its smell",
+    "category": "Wild Animals"
   },
   {
-    "word": "IMAGINE",
-    "clue": "To form a picture in your mind"
+    "word": "SNAKE",
+    "clue": "Legless reptile that slithers along the ground",
+    "category": "Wild Animals"
   },
   {
-    "word": "IMPROVE",
-    "clue": "To make something better"
+    "word": "TIGER",
+    "clue": "Orange big cat with black stripes",
+    "category": "Wild Animals"
   },
   {
-    "word": "JACKPOT",
-    "clue": "Large cash prize won in a game"
+    "word": "ZEBRA",
+    "clue": "African animal famous for its black-and-white stripes",
+    "category": "Wild Animals"
   },
   {
-    "word": "JOURNEY",
-    "clue": "A trip from one place to another"
+    "word": "BADGER",
+    "clue": "Burrowing animal with a striped face",
+    "category": "Wild Animals"
   },
   {
-    "word": "KETCHUP",
-    "clue": "Tomato-based condiment"
+    "word": "COYOTE",
+    "clue": "Wild dog known for yipping at night",
+    "category": "Wild Animals"
   },
   {
-    "word": "KEYWORD",
-    "clue": "Important term used when searching"
+    "word": "GOPHER",
+    "clue": "Burrowing rodent that digs tunnel systems",
+    "category": "Wild Animals"
   },
   {
-    "word": "KINGDOM",
-    "clue": "Territory ruled by a king or queen"
+    "word": "JACKAL",
+    "clue": "Wild dog of Africa and Asia known for scavenging",
+    "category": "Wild Animals"
   },
   {
-    "word": "KITCHEN",
-    "clue": "Room where meals are cooked"
+    "word": "WEASEL",
+    "clue": "Slender predator that can slip into tiny burrows",
+    "category": "Wild Animals"
   },
   {
-    "word": "LANTERN",
-    "clue": "Portable light carried by hand"
+    "word": "BUFFALO",
+    "clue": "Shaggy-headed grazer of the American plains",
+    "category": "Wild Animals"
+  },
+  {
+    "word": "CHEETAH",
+    "clue": "Spotted cat that's the fastest land animal alive",
+    "category": "Wild Animals"
+  },
+  {
+    "word": "GIRAFFE",
+    "clue": "Tallest land animal, with a very long neck",
+    "category": "Wild Animals"
+  },
+  {
+    "word": "GORILLA",
+    "clue": "Largest of the great apes",
+    "category": "Wild Animals"
   },
   {
     "word": "LEOPARD",
-    "clue": "Big cat with dark rosette spots, native to Africa and Asia"
+    "clue": "Spotted big cat known for climbing trees with prey",
+    "category": "Wild Animals"
   },
   {
-    "word": "LIBRARY",
-    "clue": "Building full of books to borrow"
+    "word": "MEERKAT",
+    "clue": "Small burrowing animal that stands guard on two legs",
+    "category": "Wild Animals"
   },
   {
-    "word": "LOBSTER",
-    "clue": "Clawed sea creature eaten as seafood"
-  },
-  {
-    "word": "LOYALTY",
-    "clue": "Steady faithfulness to a person or cause"
-  },
-  {
-    "word": "MACHINE",
-    "clue": "Mechanical device that performs work"
-  },
-  {
-    "word": "MANAGER",
-    "clue": "Person in charge of a business or team"
-  },
-  {
-    "word": "MEANING",
-    "clue": "The sense or purpose of something"
-  },
-  {
-    "word": "MONSTER",
-    "clue": "Frightening imaginary creature"
-  },
-  {
-    "word": "MYSTERY",
-    "clue": "Something puzzling or unexplained"
-  },
-  {
-    "word": "NETWORK",
-    "clue": "Interconnected system of people or computers"
-  },
-  {
-    "word": "NEUTRAL",
-    "clue": "Not taking either side"
-  },
-  {
-    "word": "NOTHING",
-    "clue": "Not a single thing"
-  },
-  {
-    "word": "NOWHERE",
-    "clue": "In no place at all"
-  },
-  {
-    "word": "NURSERY",
-    "clue": "Room set up for a baby"
-  },
-  {
-    "word": "OATMEAL",
-    "clue": "Breakfast porridge made from oats"
-  },
-  {
-    "word": "OBVIOUS",
-    "clue": "Plain and easy to notice"
-  },
-  {
-    "word": "OCTOPUS",
-    "clue": "Sea creature with eight arms"
-  },
-  {
-    "word": "OUTCOME",
-    "clue": "The result of an event"
-  },
-  {
-    "word": "OVERALL",
-    "clue": "Considering everything as a whole"
-  },
-  {
-    "word": "PACKAGE",
-    "clue": "A wrapped parcel or box"
-  },
-  {
-    "word": "PARKING",
-    "clue": "Area where vehicles are left"
-  },
-  {
-    "word": "PENGUIN",
-    "clue": "Flightless black-and-white seabird"
-  },
-  {
-    "word": "PICTURE",
-    "clue": "An image or photograph"
-  },
-  {
-    "word": "PORTION",
-    "clue": "A part or share of something"
-  },
-  {
-    "word": "PRESENT",
-    "clue": "A gift, or the current moment"
-  },
-  {
-    "word": "QUIETLY",
-    "clue": "In a silent, calm manner"
-  },
-  {
-    "word": "RAILWAY",
-    "clue": "Track that trains run on"
-  },
-  {
-    "word": "RAINBOW",
-    "clue": "Colorful arc seen after rain"
-  },
-  {
-    "word": "READING",
-    "clue": "The act of looking at written words"
-  },
-  {
-    "word": "REALIZE",
-    "clue": "To suddenly become aware of something"
-  },
-  {
-    "word": "RESERVE",
-    "clue": "To hold back or book in advance"
-  },
-  {
-    "word": "SEASIDE",
-    "clue": "Coastal area next to the ocean"
-  },
-  {
-    "word": "SPECIAL",
-    "clue": "Not ordinary or typical"
-  },
-  {
-    "word": "STATION",
-    "clue": "Stop for trains or buses"
-  },
-  {
-    "word": "STOMACH",
-    "clue": "Organ that digests food"
-  },
-  {
-    "word": "TEACHER",
-    "clue": "Person who instructs students"
-  },
-  {
-    "word": "THUNDER",
-    "clue": "Loud rumble that follows lightning"
-  },
-  {
-    "word": "TONIGHT",
-    "clue": "This coming evening"
-  },
-  {
-    "word": "TRAFFIC",
-    "clue": "Vehicles traveling along a road"
-  },
-  {
-    "word": "UNIFORM",
-    "clue": "Standard clothing worn by a group"
-  },
-  {
-    "word": "UNKNOWN",
-    "clue": "Not identified or familiar"
-  },
-  {
-    "word": "UPRIGHT",
-    "clue": "Standing straight up"
-  },
-  {
-    "word": "VACCINE",
-    "clue": "Injection that prevents disease"
-  },
-  {
-    "word": "VILLAGE",
-    "clue": "Small rural community"
-  },
-  {
-    "word": "VITAMIN",
-    "clue": "Nutrient essential for good health"
-  },
-  {
-    "word": "VOLCANO",
-    "clue": "Mountain that can erupt with lava"
-  },
-  {
-    "word": "VOYAGER",
-    "clue": "A traveler on a long journey"
-  },
-  {
-    "word": "WARNING",
-    "clue": "Notice of possible danger"
-  },
-  {
-    "word": "WARRIOR",
-    "clue": "Brave fighter or soldier"
-  },
-  {
-    "word": "WEATHER",
-    "clue": "Daily conditions like rain or sunshine"
-  },
-  {
-    "word": "WEEKEND",
-    "clue": "Saturday and Sunday"
-  },
-  {
-    "word": "WELCOME",
-    "clue": "Friendly greeting given to a visitor"
-  },
-  {
-    "word": "YOGHURT",
-    "clue": "Fermented dairy food, often eaten with fruit"
-  },
-  {
-    "word": "CHILDREN",
-    "clue": "Young sons and daughters of a family"
-  },
-  {
-    "word": "BUILDING",
-    "clue": "Structure with walls and a roof"
-  },
-  {
-    "word": "HOSPITAL",
-    "clue": "Place where sick or injured people are treated"
-  },
-  {
-    "word": "AIRPLANE",
-    "clue": "Flying vehicle with wings and engines"
-  },
-  {
-    "word": "BASEBALL",
-    "clue": "Sport played with a bat on a diamond field"
-  },
-  {
-    "word": "FOOTBALL",
-    "clue": "U.S. sport where teams advance an oval ball to score touchdowns"
-  },
-  {
-    "word": "COMPUTER",
-    "clue": "Electronic device used to process data"
-  },
-  {
-    "word": "KEYBOARD",
-    "clue": "Set of keys used to type on a device"
-  },
-  {
-    "word": "UMBRELLA",
-    "clue": "Device that shields you from rain"
-  },
-  {
-    "word": "DINOSAUR",
-    "clue": "Ancient reptile known today from fossils"
-  },
-  {
-    "word": "LANGUAGE",
-    "clue": "System of words used to communicate"
-  },
-  {
-    "word": "VACATION",
-    "clue": "Trip taken for rest or leisure"
-  },
-  {
-    "word": "CALENDAR",
-    "clue": "Chart showing days, weeks, and months"
-  },
-  {
-    "word": "TORTOISE",
-    "clue": "Land-dwelling reptile known for its slow pace and domed shell"
-  },
-  {
-    "word": "ELECTRIC",
-    "clue": "Powered by a flow of current"
-  },
-  {
-    "word": "MEDICINE",
-    "clue": "Substance used to treat illness"
-  },
-  {
-    "word": "CHEMICAL",
-    "clue": "Substance used or made in a lab reaction"
-  },
-  {
-    "word": "SEAHORSE",
-    "clue": "Small fish with a horse-shaped head"
-  },
-  {
-    "word": "STARFISH",
-    "clue": "Sea creature shaped like a five-pointed star"
-  },
-  {
-    "word": "SUITCASE",
-    "clue": "Case used to pack clothes for a trip"
-  },
-  {
-    "word": "BACKPACK",
-    "clue": "Bag carried on the shoulders"
-  },
-  {
-    "word": "NOTEBOOK",
-    "clue": "Small book of blank pages for writing"
-  },
-  {
-    "word": "BATHROOM",
-    "clue": "Room containing a toilet and sink"
-  },
-  {
-    "word": "STAIRWAY",
-    "clue": "Series of steps leading between floors"
-  },
-  {
-    "word": "DRIVEWAY",
-    "clue": "Paved path leading to a garage"
-  },
-  {
-    "word": "SIDEWALK",
-    "clue": "Paved path for walking beside a street"
-  },
-  {
-    "word": "TRAINING",
-    "clue": "Practice done to build a skill"
-  },
-  {
-    "word": "LEARNING",
-    "clue": "Process of gaining new knowledge"
-  },
-  {
-    "word": "TEACHING",
-    "clue": "Act of helping others gain knowledge"
-  },
-  {
-    "word": "PAINTING",
-    "clue": "Artwork made using colors on a canvas"
-  },
-  {
-    "word": "MUSICIAN",
-    "clue": "Person who performs or writes music"
-  },
-  {
-    "word": "ARTISTIC",
-    "clue": "Showing skill and creativity in art"
-  },
-  {
-    "word": "CREATIVE",
-    "clue": "Having original and imaginative ideas"
-  },
-  {
-    "word": "NATIONAL",
-    "clue": "Relating to an entire country"
-  },
-  {
-    "word": "STANDARD",
-    "clue": "Accepted level of normal quality"
-  },
-  {
-    "word": "CONTRACT",
-    "clue": "Legally binding written agreement"
-  },
-  {
-    "word": "DISTANCE",
-    "clue": "Amount of space between two points"
-  },
-  {
-    "word": "BALANCED",
-    "clue": "Evenly weighted, in a state of equilibrium"
-  },
-  {
-    "word": "CAPACITY",
-    "clue": "Maximum amount something can hold"
-  },
-  {
-    "word": "STRENGTH",
-    "clue": "Physical power or force"
-  },
-  {
-    "word": "RELATIVE",
-    "clue": "Family member, such as an aunt or cousin"
-  },
-  {
-    "word": "POSITIVE",
-    "clue": "Optimistic, or greater than zero"
-  },
-  {
-    "word": "NEGATIVE",
-    "clue": "Less than zero, or expressing refusal"
-  },
-  {
-    "word": "ATTITUDE",
-    "clue": "A person's settled way of thinking or feeling"
-  },
-  {
-    "word": "LATITUDE",
-    "clue": "Distance north or south of the equator"
-  },
-  {
-    "word": "ALTITUDE",
-    "clue": "Height above sea level"
-  },
-  {
-    "word": "SOLITUDE",
-    "clue": "State of being completely alone"
-  },
-  {
-    "word": "SANDWICH",
-    "clue": "Food made by placing a filling between two slices of bread"
-  },
-  {
-    "word": "MOUNTAIN",
-    "clue": "Landform rising high above its surroundings"
+    "word": "WARTHOG",
+    "clue": "Tusked wild pig of the African savanna",
+    "category": "Wild Animals"
   },
   {
     "word": "ELEPHANT",
-    "clue": "Large gray mammal with a long trunk"
+    "clue": "Largest land animal, known for its trunk",
+    "category": "Wild Animals"
   },
   {
-    "word": "INDUSTRY",
-    "clue": "Economic activity that produces goods"
+    "word": "KANGAROO",
+    "clue": "Hopping Australian animal that carries its young in a pouch",
+    "category": "Wild Animals"
   },
   {
-    "word": "LITERARY",
-    "clue": "Relating to books and written works"
+    "word": "ANTELOPE",
+    "clue": "Fast, horned grazer of the African plains",
+    "category": "Wild Animals"
   },
   {
-    "word": "LITERATE",
-    "clue": "Able to read and write"
+    "word": "CHIPMUNK",
+    "clue": "Small striped rodent that stuffs its cheeks with seeds",
+    "category": "Wild Animals"
   },
   {
-    "word": "LOCATION",
-    "clue": "Particular place or position"
+    "word": "COD",
+    "clue": "Popular fish used in fish and chips",
+    "category": "Ocean & Sea Creatures"
   },
   {
-    "word": "ROTATION",
-    "clue": "A full turn around a central point"
+    "word": "EEL",
+    "clue": "Long, snake-like fish",
+    "category": "Ocean & Sea Creatures"
   },
   {
-    "word": "CREATION",
-    "clue": "Something that has been made or produced"
+    "word": "CARP",
+    "clue": "Freshwater fish often found in ponds",
+    "category": "Ocean & Sea Creatures"
   },
   {
-    "word": "OPERATOR",
-    "clue": "Person who runs or controls a machine"
+    "word": "CLAM",
+    "clue": "Two-shelled creature that burrows into sand",
+    "category": "Ocean & Sea Creatures"
   },
   {
-    "word": "EQUATION",
-    "clue": "Mathematical statement that two things are equal"
+    "word": "CRAB",
+    "clue": "Sideways-walking shellfish with two claws",
+    "category": "Ocean & Sea Creatures"
   },
   {
-    "word": "EXERCISE",
-    "clue": "Physical activity done to stay fit"
+    "word": "FISH",
+    "clue": "Gilled animal that lives underwater",
+    "category": "Ocean & Sea Creatures"
   },
   {
-    "word": "ORGANIZE",
-    "clue": "To arrange things into an orderly system"
+    "word": "SEAL",
+    "clue": "Flippered mammal that hauls out onto rocks",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "CORAL",
+    "clue": "Colorful reef-building sea organism",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "GUPPY",
+    "clue": "Small, colorful aquarium fish",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "MANTA",
+    "clue": "Giant ray that glides through the ocean like a bird",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "SHARK",
+    "clue": "Toothy predator that never stops swimming",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "TROUT",
+    "clue": "Freshwater fish popular with anglers",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "WHALE",
+    "clue": "Enormous mammal that breathes through a blowhole",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "MARLIN",
+    "clue": "Long-billed game fish prized by deep-sea anglers",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "MINNOW",
+    "clue": "Tiny fish often used as fishing bait",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "OYSTER",
+    "clue": "Shellfish that can grow a pearl inside it",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "SALMON",
+    "clue": "Pink-fleshed fish that swims upstream to spawn",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "SHRIMP",
+    "clue": "Small curved shellfish popular in seafood dishes",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "SPONGE",
+    "clue": "Porous sea creature that soaks up water",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "TURTLE",
+    "clue": "Shelled reptile that paddles through the sea",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "URCHIN",
+    "clue": "Spiky ball-shaped creature on the ocean floor",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "WALRUS",
+    "clue": "Whiskered arctic mammal with long tusks",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "ANCHOVY",
+    "clue": "Tiny salty fish often used on pizza",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "DOLPHIN",
+    "clue": "Playful, clicking sea mammal known for its intelligence",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "LOBSTER",
+    "clue": "Clawed crustacean served as a seafood delicacy",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "MOLLUSK",
+    "clue": "Soft-bodied creature often protected by a shell",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "OCTOPUS",
+    "clue": "Eight-armed sea creature that squirts ink to escape",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "PIRANHA",
+    "clue": "Sharp-toothed freshwater fish with a fearsome reputation",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "SCALLOP",
+    "clue": "Fan-shelled swimming shellfish",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "SEAWEED",
+    "clue": "Plant-like growth that drifts and clings in the sea",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "BARNACLE",
+    "clue": "Small shelled creature that clings to ship hulls",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "FLOUNDER",
+    "clue": "Flat fish that lies camouflaged on the seabed",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "MACKEREL",
+    "clue": "Striped, oily fish that swims in large schools",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "PLANKTON",
+    "clue": "Tiny drifting organisms that feed whales and fish alike",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "PORPOISE",
+    "clue": "Small, blunt-nosed relative of the dolphin",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "SEAHORSE",
+    "clue": "Tiny fish shaped like a horse's head",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "STARFISH",
+    "clue": "Five-armed creature that can regrow a lost limb",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "STINGRAY",
+    "clue": "Flat sea creature with a barbed tail",
+    "category": "Ocean & Sea Creatures"
+  },
+  {
+    "word": "ANT",
+    "clue": "Tiny insect that marches in a line to carry food",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "BEE",
+    "clue": "Buzzing insect that makes honey and pollinates flowers",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "FLY",
+    "clue": "Buzzing pest drawn to spoiled food",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "FROG",
+    "clue": "Hopping amphibian known for its croak",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "GNAT",
+    "clue": "Tiny flying insect that swarms in groups",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "MOTH",
+    "clue": "Nighttime cousin of the butterfly, drawn to light",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "NEWT",
+    "clue": "Small amphibian with smooth, moist skin",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "SLUG",
+    "clue": "Slow-moving, shell-less garden pest",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "TICK",
+    "clue": "Tiny blood-feeding pest that clings to skin",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "TOAD",
+    "clue": "Warty, bumpy-skinned cousin of the frog",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "WASP",
+    "clue": "Stinging insect that builds papery nests",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "WORM",
+    "clue": "Legless wriggler that helps aerate garden soil",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "APHID",
+    "clue": "Tiny sap-sucking pest that swarms plant stems",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "ROACH",
+    "clue": "Fast-scurrying pest that hides from the light",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "SNAIL",
+    "clue": "Slow-moving mollusk that carries its shell everywhere",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "BEETLE",
+    "clue": "Insect protected by a hard, shiny wing case",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "EARWIG",
+    "clue": "Insect with pincers at the tip of its tail",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "HORNET",
+    "clue": "Large, aggressive relative of the wasp",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "LIZARD",
+    "clue": "Scaly, four-legged reptile that suns itself on rocks",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "LOCUST",
+    "clue": "Swarming insect that can strip a field bare",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "MAGGOT",
+    "clue": "Larva that hatches from a fly's egg",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "MANTIS",
+    "clue": "Insect that holds its front legs as if praying",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "SPIDER",
+    "clue": "Eight-legged weaver of sticky webs",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "WEEVIL",
+    "clue": "Small beetle with a long snout, a pest to grain",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "CRICKET",
+    "clue": "Insect known for chirping by rubbing its wings",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "FIREFLY",
+    "clue": "Beetle that glows in the dark on summer nights",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "LADYBUG",
+    "clue": "Spotted red beetle considered a gardener's friend",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "PILLBUG",
+    "clue": "Little critter that rolls into a ball when touched",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "TERMITE",
+    "clue": "Wood-chewing insect that lives in colonies",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "MOSQUITO",
+    "clue": "Buzzing pest known for its itchy bite",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "STINKBUG",
+    "clue": "Shield-shaped bug that releases a foul smell when threatened",
+    "category": "Bugs & Backyard Critters"
+  },
+  {
+    "word": "OWL",
+    "clue": "Night hunter known for its silent flight and hooting",
+    "category": "Birds"
+  },
+  {
+    "word": "CROW",
+    "clue": "Glossy black bird known for its raspy caw",
+    "category": "Birds"
+  },
+  {
+    "word": "DOVE",
+    "clue": "Gentle white bird often used as a symbol of peace",
+    "category": "Birds"
+  },
+  {
+    "word": "HAWK",
+    "clue": "Sharp-eyed bird of prey that circles high overhead",
+    "category": "Birds"
+  },
+  {
+    "word": "IBIS",
+    "clue": "Long-billed wading bird, sacred in ancient Egypt",
+    "category": "Birds"
+  },
+  {
+    "word": "KIWI",
+    "clue": "Flightless bird native to New Zealand",
+    "category": "Birds"
+  },
+  {
+    "word": "SWAN",
+    "clue": "Graceful long-necked bird that glides across ponds",
+    "category": "Birds"
+  },
+  {
+    "word": "CRANE",
+    "clue": "Tall, long-legged wading bird known for its dance",
+    "category": "Birds"
+  },
+  {
+    "word": "EAGLE",
+    "clue": "Powerful bird of prey with incredible eyesight",
+    "category": "Birds"
+  },
+  {
+    "word": "FINCH",
+    "clue": "Small seed-eating songbird",
+    "category": "Birds"
+  },
+  {
+    "word": "HERON",
+    "clue": "Long-legged bird that stands still, waiting to spear fish",
+    "category": "Birds"
+  },
+  {
+    "word": "ROBIN",
+    "clue": "Songbird with a rusty-orange breast",
+    "category": "Birds"
+  },
+  {
+    "word": "STORK",
+    "clue": "Long-legged bird said to deliver babies in folklore",
+    "category": "Birds"
+  },
+  {
+    "word": "CANARY",
+    "clue": "Small yellow songbird kept as a pet",
+    "category": "Birds"
+  },
+  {
+    "word": "CONDOR",
+    "clue": "Massive vulture with one of the widest wingspans alive",
+    "category": "Birds"
+  },
+  {
+    "word": "FALCON",
+    "clue": "Fast diving bird of prey, famed for its aerial hunting",
+    "category": "Birds"
+  },
+  {
+    "word": "MAGPIE",
+    "clue": "Chattering black-and-white bird drawn to shiny objects",
+    "category": "Birds"
+  },
+  {
+    "word": "PARROT",
+    "clue": "Colorful bird that can be taught to mimic speech",
+    "category": "Birds"
+  },
+  {
+    "word": "PIGEON",
+    "clue": "Common city bird that coos and struts",
+    "category": "Birds"
+  },
+  {
+    "word": "TOUCAN",
+    "clue": "Tropical bird known for its huge, colorful beak",
+    "category": "Birds"
+  },
+  {
+    "word": "BLUEJAY",
+    "clue": "Loud blue-and-white backyard bird",
+    "category": "Birds"
+  },
+  {
+    "word": "BUZZARD",
+    "clue": "Scavenging bird often seen circling overhead",
+    "category": "Birds"
+  },
+  {
+    "word": "OSTRICH",
+    "clue": "Flightless bird that's the fastest runner on two legs",
+    "category": "Birds"
+  },
+  {
+    "word": "PEACOCK",
+    "clue": "Bird famous for fanning out its dazzling tail feathers",
+    "category": "Birds"
+  },
+  {
+    "word": "PELICAN",
+    "clue": "Bird with a huge throat pouch for scooping up fish",
+    "category": "Birds"
+  },
+  {
+    "word": "SEAGULL",
+    "clue": "Noisy coastal bird that steals fries at the beach",
+    "category": "Birds"
+  },
+  {
+    "word": "SPARROW",
+    "clue": "Small, common brown backyard bird",
+    "category": "Birds"
+  },
+  {
+    "word": "VULTURE",
+    "clue": "Bald-headed scavenger that circles the sky for carrion",
+    "category": "Birds"
+  },
+  {
+    "word": "CARDINAL",
+    "clue": "Bright red backyard bird with a pointed crest",
+    "category": "Birds"
+  },
+  {
+    "word": "FLAMINGO",
+    "clue": "Pink wading bird that often stands on one leg",
+    "category": "Birds"
+  },
+  {
+    "word": "PARAKEET",
+    "clue": "Small, colorful pet bird related to the parrot",
+    "category": "Birds"
+  },
+  {
+    "word": "PHEASANT",
+    "clue": "Long-tailed game bird with brilliant plumage",
+    "category": "Birds"
+  },
+  {
+    "word": "STARLING",
+    "clue": "Iridescent bird known for flocking in huge swirling clouds",
+    "category": "Birds"
+  },
+  {
+    "word": "PEA",
+    "clue": "Tiny round green vegetable that grows in a pod",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "YAM",
+    "clue": "Starchy orange root vegetable, popular at Thanksgiving",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "BEAN",
+    "clue": "Pod-grown legume, like a pinto or kidney",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "CORN",
+    "clue": "Yellow kernels grown on a cob",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "KALE",
+    "clue": "Leafy green considered a superfood",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "LEEK",
+    "clue": "Mild, onion-like vegetable with long green leaves",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "LIME",
+    "clue": "Small, sour green citrus fruit",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "PEAR",
+    "clue": "Sweet, teardrop-shaped fruit",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "PLUM",
+    "clue": "Small, juicy purple stone fruit",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "APPLE",
+    "clue": "Crunchy fruit that keeps the doctor away",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "GRAPE",
+    "clue": "Small fruit that grows in bunches, used to make wine",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "GUAVA",
+    "clue": "Tropical fruit with fragrant pink flesh",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "LEMON",
+    "clue": "Sour yellow citrus fruit",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "MANGO",
+    "clue": "Sweet, juicy tropical fruit with a big flat pit",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "MELON",
+    "clue": "Large, sweet, round fruit eaten in summer",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "OLIVE",
+    "clue": "Small fruit pressed to make oil",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "ONION",
+    "clue": "Layered vegetable that brings tears to your eyes",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "PEACH",
+    "clue": "Fuzzy-skinned, pink-orange stone fruit",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "BANANA",
+    "clue": "Curved yellow fruit, a favorite of monkeys",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "CARROT",
+    "clue": "Crunchy orange root vegetable",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "CELERY",
+    "clue": "Crisp, stringy green stalk vegetable",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "GARLIC",
+    "clue": "Pungent bulb made up of little cloves",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "POTATO",
+    "clue": "Starchy root vegetable that becomes fries or chips",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "RADISH",
+    "clue": "Small, peppery red root vegetable",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "SQUASH",
+    "clue": "Hard-skinned vegetable that comes in summer and winter varieties",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "TOMATO",
+    "clue": "Red, juicy fruit often mistaken for a vegetable",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "APRICOT",
+    "clue": "Small, fuzzy orange fruit related to the peach",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "AVOCADO",
+    "clue": "Creamy green fruit mashed to make guacamole",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "CABBAGE",
+    "clue": "Leafy vegetable that grows in a tight round head",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "PUMPKIN",
+    "clue": "Big orange gourd carved for Halloween",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "SPINACH",
+    "clue": "Leafy green that gave Popeye his strength",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "BROCCOLI",
+    "clue": "Tree-shaped green vegetable many kids try to avoid",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "CUCUMBER",
+    "clue": "Cool, crisp green vegetable sliced into salads",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "EGGPLANT",
+    "clue": "Glossy purple vegetable also called an aubergine",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "ZUCCHINI",
+    "clue": "Long green summer squash",
+    "category": "Fruits & Vegetables"
+  },
+  {
+    "word": "PIE",
+    "clue": "Fruit-filled dessert baked in a crust",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "CAKE",
+    "clue": "Frosted, layered treat for birthdays",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "TART",
+    "clue": "Small open pastry filled with fruit or custard",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "CANDY",
+    "clue": "Sweet treat you unwrap from a wrapper",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "CREAM",
+    "clue": "Rich, thick dairy topping for desserts",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "FUDGE",
+    "clue": "Dense, super-sweet chocolate square",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "HONEY",
+    "clue": "Sweet golden syrup made by bees",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "ICING",
+    "clue": "Sweet coating spread on top of a cake",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "JELLY",
+    "clue": "Wobbly fruit spread, or a wobbly dessert",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "SUGAR",
+    "clue": "Sweet crystals stirred into desserts",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "SYRUP",
+    "clue": "Sticky sweet liquid poured over pancakes",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "TAFFY",
+    "clue": "Chewy, stretchy candy pulled at the boardwalk",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "WAFER",
+    "clue": "Thin, crisp cookie often layered with ice cream",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "BATTER",
+    "clue": "Uncooked mix that becomes cake or pancakes",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "COOKIE",
+    "clue": "Sweet baked treat, often studded with chocolate chips",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "ECLAIR",
+    "clue": "Long pastry filled with cream and topped with icing",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "GATEAU",
+    "clue": "Fancy French word for a rich layered cake",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "GELATO",
+    "clue": "Dense, creamy Italian frozen dessert",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "MOUSSE",
+    "clue": "Light, airy chocolate dessert whipped to a fluff",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "NOUGAT",
+    "clue": "Chewy candy made of sugar, honey, and nuts",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "PASTRY",
+    "clue": "Flaky baked dough used for pies and tarts",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "SORBET",
+    "clue": "Icy fruit dessert with no dairy in it",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "SUNDAE",
+    "clue": "Ice cream topped with syrup and a cherry",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "TOFFEE",
+    "clue": "Hard, buttery candy that sticks to your teeth",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "WAFFLE",
+    "clue": "Griddled breakfast treat with a grid of little squares",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "BISCUIT",
+    "clue": "Soft, flaky baked good, often served with jam",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "BRITTLE",
+    "clue": "Hard, crackly candy studded with nuts",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "BROWNIE",
+    "clue": "Dense, fudgy chocolate square",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "CARAMEL",
+    "clue": "Golden, buttery candy made from melted sugar",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "COBBLER",
+    "clue": "Warm fruit dessert baked under a biscuit topping",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "COMPOTE",
+    "clue": "Fruit stewed slowly in sugary syrup",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "CUPCAKE",
+    "clue": "Single-serving cake baked in a paper liner",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "CUSTARD",
+    "clue": "Creamy, egg-thickened dessert",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "FONDANT",
+    "clue": "Smooth, moldable icing used to decorate fancy cakes",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "GRANOLA",
+    "clue": "Toasted oat and nut mix, often eaten with yogurt",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "GUMDROP",
+    "clue": "Chewy, sugar-coated little candy",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "PANCAKE",
+    "clue": "Flat, fluffy breakfast cake cooked on a griddle",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "PARFAIT",
+    "clue": "Layered dessert served in a tall glass",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "PRALINE",
+    "clue": "Sugary candy made with roasted nuts",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "PUDDING",
+    "clue": "Soft, creamy spoonable dessert",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "STRUDEL",
+    "clue": "Rolled, flaky pastry filled with fruit",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "TRUFFLE",
+    "clue": "Rich, round chocolate ball dusted with cocoa",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "DOUGHNUT",
+    "clue": "Fried, ring-shaped treat often glazed or sprinkled",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "FROSTING",
+    "clue": "Sweet, creamy layer spread over a cake",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "LOLLIPOP",
+    "clue": "Hard candy on a stick",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "MARZIPAN",
+    "clue": "Sweet almond paste shaped into little decorations",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "MERINGUE",
+    "clue": "Crisp, airy dessert made from whipped egg whites",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "SPRINKLE",
+    "clue": "Tiny colorful topping scattered over frosting",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "TIRAMISU",
+    "clue": "Italian dessert layered with coffee-soaked cake",
+    "category": "Sweets & Desserts"
+  },
+  {
+    "word": "CUP",
+    "clue": "Small container used to measure or sip from",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "PAN",
+    "clue": "Flat metal dish used for frying",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "POT",
+    "clue": "Round container used for boiling and simmering",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "BOWL",
+    "clue": "Round dish for soup, cereal, or salad",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "FORK",
+    "clue": "Pronged utensil for spearing food",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "OVEN",
+    "clue": "Appliance that bakes food with dry heat",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "SINK",
+    "clue": "Basin where dishes get washed",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "SOUP",
+    "clue": "Warm, liquid dish eaten with a spoon",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "STEW",
+    "clue": "Thick, slow-cooked mix of meat and vegetables",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "APRON",
+    "clue": "Garment tied on to protect clothes while cooking",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "GRAVY",
+    "clue": "Rich sauce made from meat drippings",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "KNIFE",
+    "clue": "Sharp-bladed tool for slicing and chopping",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "LADLE",
+    "clue": "Long-handled spoon for serving soup",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "PLATE",
+    "clue": "Flat dish you serve a meal on",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "SPOON",
+    "clue": "Rounded utensil for scooping and stirring",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "TOAST",
+    "clue": "Bread browned until crisp and golden",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "TONGS",
+    "clue": "Hinged tool for gripping and flipping food",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "WHISK",
+    "clue": "Wire tool used to beat eggs or batter",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "BASKET",
+    "clue": "Woven container for holding bread or produce",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "KETTLE",
+    "clue": "Pot with a spout, used to boil water",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "TEAPOT",
+    "clue": "Vessel used to brew and pour tea",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "BLENDER",
+    "clue": "Appliance that purees smoothies and soups",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "CUTLERY",
+    "clue": "Collective name for knives, forks, and spoons",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "PITCHER",
+    "clue": "Container with a handle and spout for pouring drinks",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "PLATTER",
+    "clue": "Large serving dish for a big meal",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "SKILLET",
+    "clue": "Heavy frying pan, often made of cast iron",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "SPATULA",
+    "clue": "Flat tool used to flip pancakes and burgers",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "TOASTER",
+    "clue": "Small appliance that browns slices of bread",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "COLANDER",
+    "clue": "Perforated bowl used to drain pasta",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "SAUCEPAN",
+    "clue": "Deep pan with a long handle, used for sauces",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "STRAINER",
+    "clue": "Mesh tool used to sift out liquid or lumps",
+    "category": "Kitchen & Cooking"
+  },
+  {
+    "word": "FOG",
+    "clue": "Thick mist that swallows up the road ahead",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "DAWN",
+    "clue": "The moment the sun first rises",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "DUSK",
+    "clue": "The dim light just before nightfall",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "GALE",
+    "clue": "A very strong, gusting wind",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "HAIL",
+    "clue": "Frozen rain pellets that can dent a car",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "MIST",
+    "clue": "Light fog hanging near the ground",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "NOON",
+    "clue": "The exact middle of the day",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "RAIN",
+    "clue": "Water falling from clouds overhead",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "SNOW",
+    "clue": "Frozen white flakes drifting down in winter",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "WIND",
+    "clue": "Moving air you can feel but not see",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "CHILL",
+    "clue": "A biting, uncomfortable coldness",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "CLOUD",
+    "clue": "Fluffy mass of water vapor floating in the sky",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "FOGGY",
+    "clue": "So misty you can barely see ahead",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "FROST",
+    "clue": "Thin icy coating that forms on cold mornings",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "MUGGY",
+    "clue": "Uncomfortably warm and damp",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "RAINY",
+    "clue": "Full of falling rain",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "SLEET",
+    "clue": "Icy mix of rain and snow",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "SNOWY",
+    "clue": "Blanketed in white flakes",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "STORM",
+    "clue": "Violent weather with heavy wind and rain",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "SUNNY",
+    "clue": "Bright and clear, without a cloud in sight",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "WINDY",
+    "clue": "Gusty enough to fly a kite",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "BREEZE",
+    "clue": "A light, gentle current of air",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "ICICLE",
+    "clue": "Dagger of ice hanging from a rooftop",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "PUDDLE",
+    "clue": "Shallow pool left behind after rain",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "CYCLONE",
+    "clue": "Spinning storm system with fierce winds",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "DRIZZLE",
+    "clue": "Light, fine rain that barely wets the ground",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "DROUGHT",
+    "clue": "Long stretch without a single drop of rain",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "RAINBOW",
+    "clue": "Colorful arc that appears after a rain shower",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "THUNDER",
+    "clue": "Booming rumble that follows a flash of lightning",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "TORNADO",
+    "clue": "Twisting funnel cloud that touches down on land",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "TWISTER",
+    "clue": "Another name for a spinning windstorm",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "BLIZZARD",
+    "clue": "Fierce snowstorm with howling wind",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "OVERCAST",
+    "clue": "Sky completely covered in gray cloud",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "SUNSHINE",
+    "clue": "Warm light pouring down from a clear sky",
+    "category": "Weather & Sky"
+  },
+  {
+    "word": "SUN",
+    "clue": "Star at the center of our solar system",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "MARS",
+    "clue": "The red planet",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "MOON",
+    "clue": "Earth's only natural satellite",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "NOVA",
+    "clue": "A star that suddenly flares up in brightness",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "STAR",
+    "clue": "Glowing point of light in the night sky",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "COMET",
+    "clue": "Icy space traveler that grows a glowing tail",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "EARTH",
+    "clue": "The only planet known to have life",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "LUNAR",
+    "clue": "Word describing anything related to the moon",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "ORBIT",
+    "clue": "The curved path a planet traces around a star",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "PLUTO",
+    "clue": "Distant dwarf planet at the edge of the solar system",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "SOLAR",
+    "clue": "Word describing anything related to the sun",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "SPACE",
+    "clue": "The vast, dark expanse beyond Earth's atmosphere",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "VENUS",
+    "clue": "Scorching-hot planet, second from the sun",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "COSMOS",
+    "clue": "Another word for the entire universe",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "GALAXY",
+    "clue": "A colossal swirl of billions of stars",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "METEOR",
+    "clue": "A streak of light from a rock burning up in the sky",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "PLANET",
+    "clue": "A large body that orbits a star",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "ROCKET",
+    "clue": "Vehicle that blasts off to carry astronauts into orbit",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "SATURN",
+    "clue": "Planet famous for its dazzling rings",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "URANUS",
+    "clue": "Pale blue planet that spins on its side",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "CAPSULE",
+    "clue": "Small pod that carries astronauts back to Earth",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "ECLIPSE",
+    "clue": "Moment when the moon blocks out the sun's light",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "JUPITER",
+    "clue": "The largest planet in our solar system",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "MERCURY",
+    "clue": "The smallest planet, and closest to the sun",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "SHUTTLE",
+    "clue": "Reusable spacecraft that once ferried astronauts to orbit",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "ASTEROID",
+    "clue": "Rocky chunk of debris orbiting the sun",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "CRESCENT",
+    "clue": "The slim, curved shape of a young or fading moon",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "STARDUST",
+    "clue": "Fine glittering particles left behind by ancient stars",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "STARSHIP",
+    "clue": "A spacecraft built for interstellar travel",
+    "category": "Space & Astronomy"
+  },
+  {
+    "word": "CAMP",
+    "clue": "Outdoor spot set up with tents for the night",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "CAVE",
+    "clue": "Dark hollow carved into a hillside or cliff",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "HIKE",
+    "clue": "A long walk through the woods or hills",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "HILL",
+    "clue": "A small raised bump of land",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "LAKE",
+    "clue": "Large body of still, fresh water",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "LEAF",
+    "clue": "Flat green part that grows on a tree branch",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "PATH",
+    "clue": "Worn trail cutting through the woods",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "POND",
+    "clue": "A small, calm body of water",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "ROCK",
+    "clue": "Hard chunk of stone jutting from the ground",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "TENT",
+    "clue": "Portable shelter you pitch for the night",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "TREE",
+    "clue": "Tall, leafy plant with a trunk and branches",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "CREEK",
+    "clue": "Small stream trickling through the woods",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "EMBER",
+    "clue": "Glowing coal left in a dying campfire",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "FLAME",
+    "clue": "The dancing light of a fire",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "RIVER",
+    "clue": "Wide, flowing body of fresh water",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "SMOKE",
+    "clue": "Gray haze rising off a campfire",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "STONE",
+    "clue": "A small, solid piece of rock",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "TRAIL",
+    "clue": "Marked path for hikers to follow",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "WOODS",
+    "clue": "A stretch of land thick with trees",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "CANYON",
+    "clue": "Deep gorge carved out by a river over time",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "FOREST",
+    "clue": "A large area densely packed with trees",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "MEADOW",
+    "clue": "Open, grassy clearing dotted with wildflowers",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "VALLEY",
+    "clue": "Low stretch of land nestled between hills",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "BONFIRE",
+    "clue": "Big outdoor fire built for a gathering",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "BOULDER",
+    "clue": "Massive rock too big to move by hand",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "COMPASS",
+    "clue": "Tool with a needle that always points north",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "LANTERN",
+    "clue": "Portable light carried on a nighttime hike",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "BACKPACK",
+    "clue": "Bag you sling over both shoulders for a hike",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "CAMPFIRE",
+    "clue": "Crackling fire built to gather around at night",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "MOUNTAIN",
+    "clue": "Landform that rises high above its surroundings",
+    "category": "Camping & Nature"
+  },
+  {
+    "word": "BALL",
+    "clue": "Round object thrown, kicked, or hit in most sports",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "DIVE",
+    "clue": "To plunge headfirst into a pool",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "GOAL",
+    "clue": "A score in soccer or hockey",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "GOLF",
+    "clue": "Sport played by hitting a small ball into distant holes",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "JUMP",
+    "clue": "To leap up off the ground",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "KICK",
+    "clue": "To strike something with your foot",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "RACE",
+    "clue": "A contest to see who's fastest",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "SURF",
+    "clue": "To ride a board across a breaking wave",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "SWIM",
+    "clue": "To move through water using your arms and legs",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "TEAM",
+    "clue": "A group of players working toward one win",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "ARENA",
+    "clue": "Big venue built for sports and events",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "BOXER",
+    "clue": "Athlete who fights wearing padded gloves",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "CATCH",
+    "clue": "To grab a thrown ball out of the air",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "CHESS",
+    "clue": "Strategy game played with a king, queen, and pawns",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "MEDAL",
+    "clue": "Award hung around an athlete's neck for winning",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "RUGBY",
+    "clue": "Rough team sport played with an oval ball",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "THROW",
+    "clue": "To hurl something through the air",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "DOMINO",
+    "clue": "Small tile matched up by dots in a classic game",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "HOCKEY",
+    "clue": "Fast sport played on ice with sticks and a puck",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "KARATE",
+    "clue": "Martial art known for its sharp punches and kicks",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "PUZZLE",
+    "clue": "Game solved by fitting pieces together",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "SOCCER",
+    "clue": "World's most popular sport, played almost entirely with the feet",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "TENNIS",
+    "clue": "Racket sport played across a net",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "BOWLING",
+    "clue": "Game where you roll a heavy ball at ten pins",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "REFEREE",
+    "clue": "Official who calls fouls during a game",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "STADIUM",
+    "clue": "Huge venue packed with fans cheering on a game",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "WRESTLE",
+    "clue": "To grapple and try to pin an opponent",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "BASEBALL",
+    "clue": "Sport played with a bat, a diamond, and nine innings",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "CHAMPION",
+    "clue": "The winner who beat everyone else",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "FOOTBALL",
+    "clue": "U.S. sport where teams battle to reach the end zone",
+    "category": "Sports & Games"
+  },
+  {
+    "word": "BAND",
+    "clue": "A group of musicians who perform together",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "BEAT",
+    "clue": "The steady rhythm running through a song",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "DRUM",
+    "clue": "Instrument you strike with sticks or hands",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "HARP",
+    "clue": "Tall, stringed instrument played by plucking",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "HORN",
+    "clue": "Brass instrument you buzz your lips into",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "SONG",
+    "clue": "A piece of music set to lyrics",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "TUNE",
+    "clue": "A catchy melody stuck in your head",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "BANJO",
+    "clue": "Twangy stringed instrument popular in folk music",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "CHOIR",
+    "clue": "A group of singers performing together",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "CHORD",
+    "clue": "Several musical notes played all at once",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "ORGAN",
+    "clue": "Keyboard instrument that fills a whole room with sound",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "PIANO",
+    "clue": "Instrument played by pressing black and white keys",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "TEMPO",
+    "clue": "How fast or slow a piece of music is played",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "VIOLA",
+    "clue": "Stringed instrument, a bit bigger than a violin",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "VOCAL",
+    "clue": "Relating to singing with your own voice",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "CYMBAL",
+    "clue": "Metal disc crashed together for a bright, ringing hit",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "FIDDLE",
+    "clue": "Folksy nickname for a violin",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "GUITAR",
+    "clue": "Stringed instrument strummed or plucked",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "MELODY",
+    "clue": "The main tune that carries a song",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "RHYTHM",
+    "clue": "The pattern of beats that makes you want to dance",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "BASSOON",
+    "clue": "Deep-voiced woodwind with a long, curving body",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "CONCERT",
+    "clue": "A live performance put on for an audience",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "TRUMPET",
+    "clue": "Bright, brassy instrument played with valves",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "UKULELE",
+    "clue": "Small, four-stringed cousin of the guitar",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "CLARINET",
+    "clue": "Woodwind instrument played with a single reed",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "KEYBOARD",
+    "clue": "Electronic instrument that can mimic a whole band",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "SYMPHONY",
+    "clue": "A large-scale piece written for a full orchestra",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "TROMBONE",
+    "clue": "Brass instrument played by sliding a long tube",
+    "category": "Music & Instruments"
+  },
+  {
+    "word": "INK",
+    "clue": "Liquid that fills a pen",
+    "category": "School & Office"
+  },
+  {
+    "word": "PEN",
+    "clue": "Tool used for writing in ink",
+    "category": "School & Office"
+  },
+  {
+    "word": "BOOK",
+    "clue": "Bound pages full of printed words",
+    "category": "School & Office"
+  },
+  {
+    "word": "CARD",
+    "clue": "Small stiff rectangle used for notes or games",
+    "category": "School & Office"
+  },
+  {
+    "word": "DESK",
+    "clue": "Table where you sit to do your work",
+    "category": "School & Office"
+  },
+  {
+    "word": "EXAM",
+    "clue": "A test that decides your grade",
+    "category": "School & Office"
+  },
+  {
+    "word": "GLUE",
+    "clue": "Sticky substance used to paste things together",
+    "category": "School & Office"
+  },
+  {
+    "word": "NOTE",
+    "clue": "A short message jotted down for later",
+    "category": "School & Office"
+  },
+  {
+    "word": "PAGE",
+    "clue": "One side of a sheet in a book",
+    "category": "School & Office"
+  },
+  {
+    "word": "QUIZ",
+    "clue": "A short, quick test",
+    "category": "School & Office"
+  },
+  {
+    "word": "TEXT",
+    "clue": "The written words that fill a page",
+    "category": "School & Office"
+  },
+  {
+    "word": "CHALK",
+    "clue": "Soft stick used to write on a blackboard",
+    "category": "School & Office"
+  },
+  {
+    "word": "GRADE",
+    "clue": "The score you get back on an assignment",
+    "category": "School & Office"
+  },
+  {
+    "word": "PAPER",
+    "clue": "Thin sheets you write or print on",
+    "category": "School & Office"
+  },
+  {
+    "word": "RULER",
+    "clue": "Straight-edged tool for measuring or drawing lines",
+    "category": "School & Office"
+  },
+  {
+    "word": "BINDER",
+    "clue": "Ringed folder for holding loose-leaf pages",
+    "category": "School & Office"
+  },
+  {
+    "word": "CRAYON",
+    "clue": "Waxy stick used for coloring pictures",
+    "category": "School & Office"
+  },
+  {
+    "word": "FOLDER",
+    "clue": "Flat sleeve for keeping loose papers together",
+    "category": "School & Office"
+  },
+  {
+    "word": "LOCKER",
+    "clue": "Small metal cabinet assigned to a student in the hallway",
+    "category": "School & Office"
+  },
+  {
+    "word": "MARKER",
+    "clue": "Felt-tipped pen used for bold writing or drawing",
+    "category": "School & Office"
+  },
+  {
+    "word": "PENCIL",
+    "clue": "Writing tool with a graphite core you can erase",
+    "category": "School & Office"
+  },
+  {
+    "word": "RECESS",
+    "clue": "Break time when students head outside to play",
+    "category": "School & Office"
+  },
+  {
+    "word": "STAPLE",
+    "clue": "Small metal fastener that binds pages together",
+    "category": "School & Office"
+  },
+  {
+    "word": "HALLWAY",
+    "clue": "Corridor lined with lockers between classrooms",
+    "category": "School & Office"
+  },
+  {
+    "word": "LIBRARY",
+    "clue": "Room stocked with shelves of books to borrow",
+    "category": "School & Office"
+  },
+  {
+    "word": "STUDENT",
+    "clue": "Someone enrolled in school to learn",
+    "category": "School & Office"
+  },
+  {
+    "word": "TEACHER",
+    "clue": "Person who leads a classroom and grades your work",
+    "category": "School & Office"
+  },
+  {
+    "word": "CALENDAR",
+    "clue": "Chart that lays out the days, weeks, and months",
+    "category": "School & Office"
+  },
+  {
+    "word": "COMPUTER",
+    "clue": "Electronic device used for typing and research",
+    "category": "School & Office"
+  },
+  {
+    "word": "HOMEWORK",
+    "clue": "Assignments you take home to finish after class",
+    "category": "School & Office"
+  },
+  {
+    "word": "NOTEBOOK",
+    "clue": "Bound pages of blank paper for taking notes",
+    "category": "School & Office"
+  },
+  {
+    "word": "HAT",
+    "clue": "Item worn on top of your head",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "BELT",
+    "clue": "Strap worn around the waist to hold up pants",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "CAPE",
+    "clue": "Flowing garment that drapes over the shoulders",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "ROBE",
+    "clue": "Loose, long garment worn over pajamas",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "SHOE",
+    "clue": "Footwear you lace or slip on",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "SOCK",
+    "clue": "Soft covering worn on a foot, under a shoe",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "VEST",
+    "clue": "Sleeveless top worn over a shirt",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "BOOTS",
+    "clue": "Sturdy footwear that covers the ankle",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "DRESS",
+    "clue": "One-piece garment worn as an outfit",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "GLOVE",
+    "clue": "Covering for the hand with slots for fingers",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "JEANS",
+    "clue": "Sturdy denim pants",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "PANTS",
+    "clue": "Clothing that covers each leg separately",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "SCARF",
+    "clue": "Long strip of fabric wrapped around the neck",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "SHIRT",
+    "clue": "Garment worn on the upper body",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "SKIRT",
+    "clue": "Garment that hangs from the waist down",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "BEANIE",
+    "clue": "Snug knit cap worn in cold weather",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "BLOUSE",
+    "clue": "Loose-fitting top, typically worn by women",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "BUTTON",
+    "clue": "Small disk that fastens a shirt closed",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "JACKET",
+    "clue": "Light coat worn over a shirt",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "MITTEN",
+    "clue": "Hand covering with one slot for the thumb, none for fingers",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "SANDAL",
+    "clue": "Open-toed shoe strapped to the foot",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "ZIPPER",
+    "clue": "Toothed fastener you pull up to close a jacket",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "EARRING",
+    "clue": "Piece of jewelry worn dangling from the ear",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "NECKTIE",
+    "clue": "Strip of fabric knotted around a shirt collar",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "OVERALL",
+    "clue": "Bib-front work pants held up by straps",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "SLIPPER",
+    "clue": "Soft, cozy shoe worn around the house",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "SWEATER",
+    "clue": "Warm, knitted top pulled over the head",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "NECKLACE",
+    "clue": "Jewelry worn strung around the neck",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "RAINCOAT",
+    "clue": "Waterproof jacket worn to stay dry in a storm",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "SNEAKERS",
+    "clue": "Casual, rubber-soled athletic shoes",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "TROUSERS",
+    "clue": "Formal word for a pair of pants",
+    "category": "Clothing & Accessories"
+  },
+  {
+    "word": "GEM",
+    "clue": "A precious, sparkling stone",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "ORB",
+    "clue": "A glowing, magical sphere",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "KING",
+    "clue": "Crowned ruler of a realm",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "MOAT",
+    "clue": "Water-filled ditch that surrounds a castle",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "RING",
+    "clue": "Circular band, sometimes said to hold magic power",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "WAND",
+    "clue": "Slender stick a wizard waves to cast a spell",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "CROWN",
+    "clue": "Jeweled headpiece worn by royalty",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "GHOST",
+    "clue": "Spooky spirit that haunts an old castle",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "GIANT",
+    "clue": "Towering creature from folklore and fairy tales",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "MAGIC",
+    "clue": "Mysterious power behind every spell",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "QUEEN",
+    "clue": "Female ruler of a kingdom",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "SPELL",
+    "clue": "Words a witch or wizard casts to work magic",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "SWORD",
+    "clue": "Bladed weapon carried by a knight",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "TOWER",
+    "clue": "Tall, narrow part of a castle, perfect for a lookout",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "WITCH",
+    "clue": "Spellcaster often pictured with a pointed hat and broom",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "CASTLE",
+    "clue": "Fortified stone home of a king and queen",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "DRAGON",
+    "clue": "Fire-breathing beast that guards a hoard of treasure",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "GOBLIN",
+    "clue": "Mischievous little creature from folklore",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "KNIGHT",
+    "clue": "Armored warrior loyal to a king",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "POTION",
+    "clue": "Magical liquid brewed in a cauldron",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "PRINCE",
+    "clue": "Son of a king, next in line for the throne",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "SHIELD",
+    "clue": "Round piece of armor a knight blocks blows with",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "THRONE",
+    "clue": "Grand ceremonial chair fit for a monarch",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "WIZARD",
+    "clue": "Powerful spellcaster with a staff and a pointed hat",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "DUNGEON",
+    "clue": "Dark prison cell hidden below a castle",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "KINGDOM",
+    "clue": "Territory ruled over by a king or queen",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "MERMAID",
+    "clue": "Mythical sea maiden with a fish's tail",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "UNICORN",
+    "clue": "Mythical horse with a single spiraled horn",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "WARRIOR",
+    "clue": "Brave fighter who battles for a kingdom",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "FORTRESS",
+    "clue": "Massive stronghold built to withstand a siege",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "MEDIEVAL",
+    "clue": "Word describing the age of castles and knights",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "PRINCESS",
+    "clue": "Daughter of a king, often locked in a tower in fairy tales",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "TREASURE",
+    "clue": "Hoard of gold and jewels a dragon guards",
+    "category": "Castles, Knights & Fantasy"
+  },
+  {
+    "word": "SAW",
+    "clue": "Toothed blade used to cut through wood",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "BOLT",
+    "clue": "Threaded metal fastener tightened with a nut",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "FILE",
+    "clue": "Tool with a rough surface for smoothing metal",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "HOOK",
+    "clue": "Curved piece of metal used for hanging things",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "NAIL",
+    "clue": "Metal spike hammered into wood",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "PIPE",
+    "clue": "Hollow tube that carries water through a house",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "ROPE",
+    "clue": "Thick, twisted cord used for tying or pulling",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "VISE",
+    "clue": "Clamping tool that grips a workpiece steady",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "WIRE",
+    "clue": "Thin strand of metal that bends and conducts electricity",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "BLADE",
+    "clue": "The sharp, flat cutting part of a tool",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "CHAIN",
+    "clue": "Line of connected metal links",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "CLAMP",
+    "clue": "Tool that squeezes two pieces together and holds them",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "DRILL",
+    "clue": "Spinning tool used to bore holes",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "LEVEL",
+    "clue": "Tool with a bubble that shows if a surface is flat",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "SCREW",
+    "clue": "Threaded fastener twisted into place with a turning tool",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "BUCKET",
+    "clue": "Handled container for carrying water or tools",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "CHISEL",
+    "clue": "Sharp-edged tool driven with a mallet to carve wood",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "HAMMER",
+    "clue": "Tool with a heavy head, used to drive in nails",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "LADDER",
+    "clue": "Rungs you climb to reach somewhere high",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "MALLET",
+    "clue": "Hammer with a large, soft head",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "PLIERS",
+    "clue": "Hinged hand tool for gripping and bending",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "SANDER",
+    "clue": "Tool that smooths wood by grinding away rough spots",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "WRENCH",
+    "clue": "Tool used to turn a nut or bolt",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "CROWBAR",
+    "clue": "Metal bar used to pry things apart",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "STAPLER",
+    "clue": "Tool that punches a metal fastener through paper",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "TOOLBOX",
+    "clue": "Case that keeps every tool organized in one place",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "HARDWARE",
+    "clue": "General term for nails, bolts, and screws",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "SAWHORSE",
+    "clue": "Wooden stand used to support a board while cutting",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "CAR",
+    "clue": "Four-wheeled vehicle you drive to work",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "BIKE",
+    "clue": "Two-wheeled vehicle powered by pedaling",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "LANE",
+    "clue": "One marked strip of a road",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "ROAD",
+    "clue": "Paved path built for vehicles",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "TIRE",
+    "clue": "Rubber ring that wraps around a wheel",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "BRAKE",
+    "clue": "Pedal you press to slow a vehicle down",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "CABIN",
+    "clue": "Enclosed area where passengers sit on a plane",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "MOTOR",
+    "clue": "Engine that powers a vehicle",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "PLANE",
+    "clue": "Aircraft with fixed wings",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "TRAIN",
+    "clue": "Long line of connected cars running on rails",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "TRUCK",
+    "clue": "Large vehicle built for hauling heavy loads",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "WHEEL",
+    "clue": "Round part that spins to move a vehicle forward",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "DIESEL",
+    "clue": "Type of fuel that powers many trucks and trains",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "ENGINE",
+    "clue": "The machine that gives a vehicle its power",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "RUNWAY",
+    "clue": "Long paved strip where planes take off and land",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "SUBWAY",
+    "clue": "Train system that runs mostly underground",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "TICKET",
+    "clue": "Pass you need to board a train or flight",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "TUNNEL",
+    "clue": "Underground passage a road or train runs through",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "AIRPORT",
+    "clue": "Place where planes take off and land",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "BICYCLE",
+    "clue": "Formal name for a two-wheeled, pedal-powered ride",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "CARAVAN",
+    "clue": "Vehicle towed behind a car for road trips",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "COCKPIT",
+    "clue": "Compartment where a pilot sits and flies the plane",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "FREEWAY",
+    "clue": "Wide, fast highway with no stoplights",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "HIGHWAY",
+    "clue": "Major road connecting one city to another",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "MINIVAN",
+    "clue": "Roomy family vehicle with sliding side doors",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "SIDECAR",
+    "clue": "Small attached seat bolted to the side of a motorcycle",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "TRAILER",
+    "clue": "Wheeled container towed behind a truck",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "AIRPLANE",
+    "clue": "Winged aircraft that flies through the sky",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "CROSSING",
+    "clue": "Marked spot where a road meets a railway or path",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "SEATBELT",
+    "clue": "Strap that buckles you in for safety",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "SPEEDWAY",
+    "clue": "Racetrack built for high-speed cars",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "TRICYCLE",
+    "clue": "Three-wheeled ride for little kids",
+    "category": "Cars, Trains & Planes"
+  },
+  {
+    "word": "BED",
+    "clue": "Furniture you sleep on at night",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "RUG",
+    "clue": "Small carpet laid over a bare floor",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "DOOR",
+    "clue": "Hinged barrier you open to enter a room",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "GATE",
+    "clue": "Hinged barrier built into a fence",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "LAMP",
+    "clue": "Furniture that lights up a dark room",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "ROOF",
+    "clue": "The top covering that keeps rain off a house",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "SHED",
+    "clue": "Small building used to store tools in the yard",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "SOFA",
+    "clue": "Cushioned seat built for more than one person",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "WALL",
+    "clue": "Vertical structure that divides one room from another",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "YARD",
+    "clue": "Grassy outdoor space next to a house",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "CHAIR",
+    "clue": "Seat with a back and four legs",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "COUCH",
+    "clue": "Another name for a living-room sofa",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "FENCE",
+    "clue": "Barrier built to enclose a yard",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "HOUSE",
+    "clue": "Building where a family lives",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "PORCH",
+    "clue": "Covered platform attached to the front of a house",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "TABLE",
+    "clue": "Furniture with a flat top for eating or working",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "CARPET",
+    "clue": "Soft flooring that covers a room wall to wall",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "CLOSET",
+    "clue": "Small room or cupboard for hanging clothes",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "DRAWER",
+    "clue": "Sliding storage box built into a dresser",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "GARAGE",
+    "clue": "Attached space where a car is parked",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "MIRROR",
+    "clue": "Glass that reflects your own image back at you",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "PILLOW",
+    "clue": "Soft cushion you rest your head on",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "SHOWER",
+    "clue": "Stall where you rinse off under running water",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "BEDROOM",
+    "clue": "Room set aside for sleeping",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "BLANKET",
+    "clue": "Warm cover you pull over yourself in bed",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "CEILING",
+    "clue": "The surface directly above your head indoors",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "CHIMNEY",
+    "clue": "Tall chute that carries smoke up and away from a fireplace",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "CURTAIN",
+    "clue": "Fabric drape hung over a window",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "BASEMENT",
+    "clue": "Room built below the ground floor of a house",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "DOORBELL",
+    "clue": "Button pressed to announce a visitor at the door",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "STAIRWAY",
+    "clue": "Series of steps connecting two floors",
+    "category": "House & Furniture"
+  },
+  {
+    "word": "ARM",
+    "clue": "Limb connecting the shoulder to the hand",
+    "category": "Body Parts"
+  },
+  {
+    "word": "EAR",
+    "clue": "Body part on the side of your head that detects sound",
+    "category": "Body Parts"
+  },
+  {
+    "word": "EYE",
+    "clue": "Organ used for seeing",
+    "category": "Body Parts"
+  },
+  {
+    "word": "HIP",
+    "clue": "Joint where the leg meets the torso",
+    "category": "Body Parts"
+  },
+  {
+    "word": "JAW",
+    "clue": "Bony structure that opens and closes your mouth",
+    "category": "Body Parts"
+  },
+  {
+    "word": "LEG",
+    "clue": "Limb used for walking and standing",
+    "category": "Body Parts"
+  },
+  {
+    "word": "RIB",
+    "clue": "Curved bone that protects the chest cavity",
+    "category": "Body Parts"
+  },
+  {
+    "word": "TOE",
+    "clue": "Small digit found on a foot",
+    "category": "Body Parts"
+  },
+  {
+    "word": "BACK",
+    "clue": "The rear side of your body, from neck to hips",
+    "category": "Body Parts"
+  },
+  {
+    "word": "CHIN",
+    "clue": "The point of your jaw, just below the mouth",
+    "category": "Body Parts"
+  },
+  {
+    "word": "FOOT",
+    "clue": "The part of the leg you stand on",
+    "category": "Body Parts"
+  },
+  {
+    "word": "HAIR",
+    "clue": "Strands that grow from your scalp",
+    "category": "Body Parts"
+  },
+  {
+    "word": "HAND",
+    "clue": "Part of the arm with five fingers",
+    "category": "Body Parts"
+  },
+  {
+    "word": "HEAD",
+    "clue": "The top part of the body, holding the brain",
+    "category": "Body Parts"
+  },
+  {
+    "word": "KNEE",
+    "clue": "Joint that bends in the middle of your leg",
+    "category": "Body Parts"
+  },
+  {
+    "word": "NECK",
+    "clue": "Part of the body connecting the head to the shoulders",
+    "category": "Body Parts"
+  },
+  {
+    "word": "NOSE",
+    "clue": "Organ used for smelling and breathing",
+    "category": "Body Parts"
+  },
+  {
+    "word": "ANKLE",
+    "clue": "Joint connecting the foot to the leg",
+    "category": "Body Parts"
+  },
+  {
+    "word": "BRAIN",
+    "clue": "Organ inside the skull used for thinking",
+    "category": "Body Parts"
+  },
+  {
+    "word": "CHEST",
+    "clue": "Front of the torso, between the neck and stomach",
+    "category": "Body Parts"
+  },
+  {
+    "word": "ELBOW",
+    "clue": "Joint that bends in the middle of your arm",
+    "category": "Body Parts"
+  },
+  {
+    "word": "HEART",
+    "clue": "Organ that pumps blood through your whole body",
+    "category": "Body Parts"
+  },
+  {
+    "word": "SPINE",
+    "clue": "Column of bones running down the middle of your back",
+    "category": "Body Parts"
+  },
+  {
+    "word": "THUMB",
+    "clue": "Short, thick digit set apart from the other fingers",
+    "category": "Body Parts"
+  },
+  {
+    "word": "TOOTH",
+    "clue": "Hard structure in your mouth used for biting",
+    "category": "Body Parts"
+  },
+  {
+    "word": "WRIST",
+    "clue": "Joint that connects the hand to the arm",
+    "category": "Body Parts"
+  },
+  {
+    "word": "FINGER",
+    "clue": "Slender digit on the hand",
+    "category": "Body Parts"
+  },
+  {
+    "word": "KIDNEY",
+    "clue": "Bean-shaped organ that filters your blood",
+    "category": "Body Parts"
+  },
+  {
+    "word": "MUSCLE",
+    "clue": "Tissue that tightens up to move your bones",
+    "category": "Body Parts"
+  },
+  {
+    "word": "THROAT",
+    "clue": "Passage at the back of your mouth, used to swallow",
+    "category": "Body Parts"
+  },
+  {
+    "word": "TONGUE",
+    "clue": "Muscle in your mouth used for tasting and talking",
+    "category": "Body Parts"
+  },
+  {
+    "word": "EYEBROW",
+    "clue": "Strip of hair arching above your eye",
+    "category": "Body Parts"
+  },
+  {
+    "word": "FOREARM",
+    "clue": "Part of the arm between the elbow and the wrist",
+    "category": "Body Parts"
+  },
+  {
+    "word": "STOMACH",
+    "clue": "Organ that digests the food you eat",
+    "category": "Body Parts"
+  },
+  {
+    "word": "FOREHEAD",
+    "clue": "Flat area of your face above the eyebrows",
+    "category": "Body Parts"
+  },
+  {
+    "word": "SHOULDER",
+    "clue": "Joint where the arm connects to the body",
+    "category": "Body Parts"
+  },
+  {
+    "word": "SKELETON",
+    "clue": "The full framework of bones inside your body",
+    "category": "Body Parts"
   }
 ]

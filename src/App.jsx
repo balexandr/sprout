@@ -171,6 +171,13 @@ export default function App() {
       </header>
 
       <main className={styles.main}>
+        {puzzle.category && (
+          <div className={styles.categoryBadge}>
+            <span className={styles.categoryLabel}>Today's category</span>
+            <span className={styles.categoryName}>{puzzle.category}</span>
+          </div>
+        )}
+
         <div className={styles.statusBar}>
           <div className={styles.timerBlock}>
             <span className={styles.timerLabel}>Time</span>
