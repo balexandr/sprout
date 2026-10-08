@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { IconCheckmark } from './Icons';
 import styles from './ClueList.module.css';
 
 function ClueGroup({ title, words, activeWordId, solvedIds, onSelect }) {
@@ -45,7 +46,7 @@ function ClueItem({ word, isActive, isSolved, onSelect }) {
       >
         <span className={styles.itemLength}>{word.length}</span>
         <span className={styles.itemClue}>{word.clue}</span>
-        {isSolved && <span className={styles.itemCheck}>✓</span>}
+        {isSolved && <span className={styles.itemCheck}><IconCheckmark size={13} /></span>}
       </button>
     </li>
   );

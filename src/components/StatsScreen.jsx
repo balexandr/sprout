@@ -1,3 +1,4 @@
+import { IconClose } from './Icons';
 import styles from './StatsScreen.module.css';
 
 function pad(n) { return String(n).padStart(2, '0'); }
@@ -13,7 +14,7 @@ export default function StatsScreen({ stats, winPct, onClose }) {
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
         <div className={styles.header}>
           <h2 className={styles.title}>Statistics</h2>
-          <button className={styles.closeBtn} onClick={onClose} aria-label="Close">✕</button>
+          <button className={styles.closeBtn} onClick={onClose} aria-label="Close"><IconClose /></button>
         </div>
 
         <div className={styles.statsGrid}>

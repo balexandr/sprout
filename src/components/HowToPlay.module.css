@@ -54,9 +54,14 @@
 }
 
 .stepIcon {
-  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
+  width: 22px;
+  height: 22px;
   margin-top: 1px;
+  color: var(--accent);
 }
 
 .stepTitle {

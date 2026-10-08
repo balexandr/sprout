@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { IconClose, IconCheckmark, IconShare, IconTrophy, IconLeafCluster, IconSprout, IconLeaf } from './Icons';
 import styles from './WinScreen.module.css';
 
 function getTimeToMidnight() {
@@ -21,10 +22,10 @@ function formatTime(s) {
 }
 
 function getRating(seconds) {
-  if (seconds < 90) return { emoji: '🏆', label: 'Full Bloom' };
-  if (seconds < 180) return { emoji: '🌿', label: 'Thriving' };
-  if (seconds < 360) return { emoji: '🌱', label: 'Sprouted' };
-  return { emoji: '🍃', label: 'Grown' };
+  if (seconds < 90) return { Icon: IconTrophy, label: 'Full Bloom' };
+  if (seconds < 180) return { Icon: IconLeafCluster, label: 'Thriving' };
+  if (seconds < 360) return { Icon: IconSprout, label: 'Sprouted' };
+  return { Icon: IconLeaf, label: 'Grown' };
 }
 
 export default function WinScreen({ puzzle, puzzleNumber, elapsedSeconds, generateShareText, stats, winPct, onDismiss }) {
@@ -82,10 +83,10 @@ export default function WinScreen({ puzzle, puzzleNumber, elapsedSeconds, genera
         </div>
 
         <div className={styles.resultHeader}>
-          <button className={styles.dismissBtn} onClick={onDismiss} aria-label="Close">✕</button>
-          <span className={styles.ratingEmoji}>{rating.emoji}</span>
+          <button className={styles.dismissBtn} onClick={onDismiss} aria-label="Close"><IconClose /></button>
+          <span className={styles.ratingEmoji}><rating.Icon /></span>
           <h2 className={styles.title}>{rating.label}!</h2>
-          <p className={styles.subtitle}>Sprout #{puzzleNumber} — fully grown</p>
+          <p className={styles.subtitle}>Sprout #{puzzleNumber}, fully grown</p>
         </div>
 
         <div className={styles.metricsRow}>
@@ -137,7 +138,7 @@ export default function WinScreen({ puzzle, puzzleNumber, elapsedSeconds, genera
           className={`${styles.shareButton} ${copied ? styles.copied : ''}`}
           onClick={handleShare}
         >
-          {copied ? '✓ Copied to clipboard' : '⬆ Share your result'}
+          {copied ? <><IconCheckmark /> Copied to clipboard</> : <><IconShare /> Share your result</>}
         </button>
 
         <div className={styles.countdown}>

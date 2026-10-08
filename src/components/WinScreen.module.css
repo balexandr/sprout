@@ -31,7 +31,7 @@
   overflow-x: hidden;
 }
 
-/* Sparks — one per word in the puzzle, drifting behind the card */
+/* Sparks: one per word in the puzzle, drifting behind the card */
 .sparkContainer {
   position: absolute;
   inset: 0;
@@ -89,8 +89,9 @@
 }
 
 .ratingEmoji {
-  font-size: 2.2rem;
-  display: block;
+  display: flex;
+  justify-content: center;
+  color: var(--accent);
   margin-bottom: 4px;
 }
 
@@ -216,6 +217,10 @@
 
 /* Share button */
 .shareButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
   width: 100%;
   padding: 12px;
   background: var(--accent);
