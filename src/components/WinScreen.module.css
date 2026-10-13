@@ -241,6 +241,24 @@
   box-shadow: 0 2px 8px rgba(74, 222, 128, 0.25);
 }
 
+.leaderboardButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  width: 100%;
+  padding: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  margin-bottom: 12px;
+}
+
+.leaderboardButton:hover { background: var(--surface-hover); color: var(--text); }
+
 /* Countdown */
 .countdown {
   display: flex;

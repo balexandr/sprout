@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { IconClose, IconCheckmark, IconShare, IconTrophy, IconLeafCluster, IconSprout, IconLeaf } from './Icons';
+import { IconClose, IconCheckmark, IconShare, IconTrophy, IconLeafCluster, IconSprout, IconLeaf, IconLeaderboard } from './Icons';
 import styles from './WinScreen.module.css';
 
 function getTimeToMidnight() {
@@ -28,7 +28,7 @@ function getRating(seconds) {
   return { Icon: IconLeaf, label: 'Grown' };
 }
 
-export default function WinScreen({ puzzle, puzzleNumber, elapsedSeconds, generateShareText, stats, winPct, onDismiss }) {
+export default function WinScreen({ puzzle, puzzleNumber, elapsedSeconds, generateShareText, stats, winPct, onDismiss, onViewLeaderboard }) {
   const [copied, setCopied] = useState(false);
   const [countdown, setCountdown] = useState(getTimeToMidnight());
   const [showContent, setShowContent] = useState(false);
@@ -139,6 +139,10 @@ export default function WinScreen({ puzzle, puzzleNumber, elapsedSeconds, genera
           onClick={handleShare}
         >
           {copied ? <><IconCheckmark /> Copied to clipboard</> : <><IconShare /> Share your result</>}
+        </button>
+
+        <button className={styles.leaderboardButton} onClick={onViewLeaderboard}>
+          <IconLeaderboard size={16} /> View today's leaderboard
         </button>
 
         <div className={styles.countdown}>
